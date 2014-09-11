@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c8b8e81972dbdf347927590e43e5da8c
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - controlTex_Up: {fileID: 2800000, guid: 020b9dcceaab00547b4b2f182c03d9da, type: 3}
+  - controlTex_Down: {fileID: 2800000, guid: 2a54c5ea75c58054081f954a02c4a4a8, type: 3}
+  - controlTex_Left: {fileID: 2800000, guid: fc6662eaa41c0bc4b8b8725c02736688, type: 3}
+  - controlTex_Right: {fileID: 2800000, guid: e7964c190eda91a42bf8cabfe6ee91f4, type: 3}
+  - controlTex_High: {fileID: 2800000, guid: 8c2fe463d5950e446b0b586d682fc3b6, type: 3}
+  - controlTex_Low: {fileID: 2800000, guid: eac5fa5518907804b9744e54e85191d1, type: 3}
+  - MocapiSkin: {fileID: 11400000, guid: 49c0a1aa86c24754dafde575071d0646, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
