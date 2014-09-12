@@ -1,0 +1,12 @@
+﻿1.
+Need to add values, which are being controlled by both F-buttons and GUI.button presses
+This values trigger Animatior transitions
+
+2.
+Need to play more with the gui - we want to make the entire motion panel better visible on mouse hover
+
+3.
+Finally, need to add not only the shiatsu motions, but also transitions, to which we default.
+
+4.
+We MIGHT need automatic progression from motion to motion.

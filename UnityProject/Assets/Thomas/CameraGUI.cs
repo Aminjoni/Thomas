@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 
 namespace MocapiThomas
 {
@@ -83,116 +85,118 @@ namespace MocapiThomas
             //else
             //    GUILayout.Label("Mouse somewhere else");
 
-            // Make a group on the center of the screen
-            GUI.BeginGroup(rectContainer);
-            // All rectangles are now adjusted to the group. (0,0) is the topleft corner of the group.
 
-            // We'll make a box so you can see where the group is on-screen.
-            GUI.Box(new Rect(0, 0, rectContainer.width, rectContainer.height), "Group is here", styleFlat);
-            GUI.Button(new Rect(10, 40, 80, 30), "Click me", styleFlat);
 
+            // Button group with all motions
+            GUI.BeginGroup(rectMenuContainer);
+            GUI.Box(new Rect(0, 0, rectMenuContainer.width, rectMenuContainer.height), "", styleTransp); //"Shiatsu Motions"
+            //create all buttons from array
+            int b = 0;
+            while (b < dictMotions.Count)
+            {
+                GUI.Button(new Rect(0, (b * (buttMotionsH + buttMotionsSpacing)), buttMotionsW, buttMotionsH), dictMotions[b], styleFlatButton);
+                ++b;
+            }
             // End the group we started above. This is very important to remember!
             GUI.EndGroup();
 
+            ////Make motion buttons visible on hover
+            //Event eButtons = Event.current;
+            //if (eButtons.mousePosition.x > rectMenuContainer.xMin &&
+            //    eButtons.mousePosition.y > rectMenuContainer.yMin &&
+            //    eButtons.mousePosition.x < rectMenuContainer.xMax &&
+            //    eButtons.mousePosition.y < rectMenuContainer.yMax)
+            //    Debug.Log("Mouse Here!" + eButtons.mousePosition);
+
         }
 
-        private Rect rectContainer = new Rect(Screen.width-200, 20, 180, 100);
+        
+        private int buttMotionsH = 20;
+        private int buttMotionsW = 98;
+        private int buttMotionsSpacing = 2;
+        private Dictionary<int, string> dictMotions = new Dictionary<int, string>();
+        private Rect rectMenuContainer;
+        private GUIStyle styleFlatButton;
+        private GUIStyle styleTransp;
+        private GUIStyle styleFlatBG;  //TEMP
 
+        //TEP
         private GUIStyle styleFlat;
-        //Texture2D textureNorm = new Texture2D(128, 128);
 
         void Start()
         {
-            ////color as texture
-            //Color32 color32 = new Color32(25, 25, 25, 128);
-            //Texture2D texture2 = new Texture2D(128, 128);
-            ////texture2.SetPixels(Color32);
-            //texture2.Apply();
 
-            //BGTextNorm();
-            //BGTextHover();
+            //OK
+            dictMotions.Add(0, " Long Masunaga ");
+            dictMotions.Add(1, " Maag Starking ");
+            dictMotions.Add(2, " Hart ");
+            dictMotions.Add(3, " Blaas ");
+            dictMotions.Add(4, " Zwing ");
+            dictMotions.Add(5, " Lever ");
+            dictMotions.Add(6, " Kant Streking ");
+            dictMotions.Add(7, " Behandeling ");
+            dictMotions.Add(8, " Masunaga 2 ");
+            dictMotions.Add(9, " Masunaga 3 ");
+            dictMotions.Add(10, " Masunaga 4 ");
+            dictMotions.Add(11, " Warming Up ");
+            dictMotions.Add(12, " Long ");
+            dictMotions.Add(13, " Maag ");
+            dictMotions.Add(14, " Nier ");
+            dictMotions.Add(15, " Warmer ");
+            dictMotions.Add(16, " Hart ");
+            dictMotions.Add(17, " Rug Sterking  ");
+            dictMotions.Add(18, " Lever Sterking  ");
+            dictMotions.Add(19, " Behandeling ");
+            dictMotions.Add(20, " Behandeling 2 ");
+            
+            //GUI Container for the motion menu
+            rectMenuContainer = new Rect(Screen.width - buttMotionsW - leftMargin, Screen.height - dictMotions.Count*(buttMotionsH+buttMotionsSpacing) - (bottomMargin/2), buttMotionsW, dictMotions.Count*(buttMotionsH+buttMotionsSpacing));
 
-            //Color32 colorNorm = Color.white;
-            //Color32 colorHover = Color.cyan;
-
-
-
-            ////color as texture
-            Texture2D texture = new Texture2D(128, 128);
+            //color definitions
             Texture2D textureNorm = new Texture2D(128, 128);
             Texture2D textureHover = new Texture2D(128, 128);
+            //Color colorNorm = Color.cyan;
+            //Color colorHover = Color.white;
+            Color32 color32Norm = new Color32(184, 195, 201, 90);
+            Color32 color32Hover = new Color32(222, 135, 170, 90);
 
+            //create background textures from colors
             int y = 0;
-            while (y < texture.height)
+            while (y < textureNorm.height)
             {
                 int x = 0;
-                while (x < texture.width)
+                while (x < textureNorm.width)
                 {
-                    Color color = Color.magenta;
-                    texture.SetPixel(x, y, color);
+                    textureNorm.SetPixel(x, y, color32Norm);
+                    textureHover.SetPixel(x, y, color32Hover);
+
                     ++x;
                 }
                 ++y;
             }
-            texture.Apply();
+            textureNorm.Apply();
+            textureHover.Apply();
+
+            //define style for background TEMP
+            //styleFlatBG = new GUIStyle();
+            //styleFlatBG.normal.background = textureNorm;
+
+            //define style for transparent elements
+            styleTransp = new GUIStyle();
+            styleTransp.normal.background = null;
 
             
+            //define style for flat elements
+            styleFlatButton = new GUIStyle();
+            styleFlatButton.normal.background = textureNorm;
+            styleFlatButton.hover.background = textureHover;
+            styleFlatButton.normal.textColor = Color.white;
+            styleFlatButton.hover.textColor = Color.black;
+            styleFlatButton.fontSize = 12;
+            styleFlatButton.fontStyle = FontStyle.Normal;
+            styleFlatButton.alignment = TextAnchor.MiddleCenter;
 
-            styleFlat = new GUIStyle();
-
-            styleFlat.normal.background = texture;
-            //styleFlat.normal.background = textureNorm;
-            //styleFlat.hover.background = textureHover;            
-            styleFlat.normal.textColor = Color.cyan;
-            styleFlat.fontSize = 14;
-            styleFlat.fontStyle = FontStyle.Bold;
-                }
-
-            //Texture2D textureNorm = new Texture2D(128, 128);
-
-            //void BGTextNorm()
-            //{
-            //    //ButtonNormal color as texture
-            //    int y = 0;
-            //    while (y < textureNorm.height)
-            //    {
-            //        int x = 0;
-            //        while (x < textureNorm.width)
-            //        {
-            //            Color color = Color.white;
-            //            textureNorm.SetPixel(x, y, color);
-            //            ++x;
-            //        }
-            //        ++y;
-            //    }
-            //    textureNorm.Apply();
-            //}
-
-            //Texture2D textureHover = new Texture2D(128, 128);
-
-            //void BGTextHover()
-            //{
-            //    //ButtonNormal color as texture
-            //    int y = 0;
-            //    while (y < textureHover.height)
-            //    {
-            //        int x = 0;
-            //        while (x < textureHover.width)
-            //        {
-            //            Color color = Color.cyan;
-            //            textureHover.SetPixel(x, y, color);
-            //            ++x;
-            //        }
-            //        ++y;
-            //    }
-            //    textureHover.Apply();
-
-            //}
-
-        void Update()
-        {
-
-                //Debug.Log(hover);
         }
+
     }
 }
