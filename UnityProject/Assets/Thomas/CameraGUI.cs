@@ -69,25 +69,7 @@ namespace MocapiThomas
             if (GUI.RepeatButton(new Rect(leftMargin + (buttWH * 3), Screen.height - bottomMargin - buttWH, buttWH, buttWH), controlTex_Low)) { Low = true; }
             else Low = false;
 
-            //////test1 OK
-            //Event e = Event.current;
-            //if (e.mousePosition.x > Screen.width-20 && 
-            //    e.mousePosition.y > 0 && 
-            //    e.mousePosition.x < Screen.width && 
-            //    e.mousePosition.y < 20)
-            //    Debug.Log("Mouse Here!" + e.mousePosition);
-
-
-            ////test2 OK
-            //GUILayout.Button("My button");
-            //if (Event.current.type == EventType.Repaint && GUILayoutUtility.GetLastRect().Contains(Event.current.mousePosition))
-            //    GUILayout.Label("Mouse over!");
-            //else
-            //    GUILayout.Label("Mouse somewhere else");
-
-
-
-            // Button group with all motions
+            // Button Group - all motions
             GUI.BeginGroup(rectMenuContainer);
             GUI.Box(new Rect(0, 0, rectMenuContainer.width, rectMenuContainer.height), "", styleTransp); //"Shiatsu Motions"
             //create all buttons from array
@@ -100,13 +82,21 @@ namespace MocapiThomas
             // End the group we started above. This is very important to remember!
             GUI.EndGroup();
 
-            ////Make motion buttons visible on hover
-            //Event eButtons = Event.current;
-            //if (eButtons.mousePosition.x > rectMenuContainer.xMin &&
-            //    eButtons.mousePosition.y > rectMenuContainer.yMin &&
-            //    eButtons.mousePosition.x < rectMenuContainer.xMax &&
-            //    eButtons.mousePosition.y < rectMenuContainer.yMax)
-            //    Debug.Log("Mouse Here!" + eButtons.mousePosition);
+            //Make motion buttons visible on hover
+            Event eButtons = Event.current;
+            if (eButtons.mousePosition.x > rectMenuContainer.xMin &&
+                eButtons.mousePosition.y > rectMenuContainer.yMin &&
+                eButtons.mousePosition.x < rectMenuContainer.xMax &&
+                eButtons.mousePosition.y < rectMenuContainer.yMax)
+            {
+                alphaTarget = 250f;
+                styleFlatButton.normal.background = textureNorm;
+            }
+            else
+            {
+                alphaTarget = 20f;
+                styleFlatButton.normal.background = textureNormWeak;
+            }
 
         }
 
@@ -118,10 +108,12 @@ namespace MocapiThomas
         private Rect rectMenuContainer;
         private GUIStyle styleFlatButton;
         private GUIStyle styleTransp;
-        private GUIStyle styleFlatBG;  //TEMP
+        private float alphaText;
+        private float alphaTarget;
+        private Color32 color32text;
+        private Texture2D textureNormWeak;
+        private Texture2D textureNorm;
 
-        //TEP
-        private GUIStyle styleFlat;
 
         void Start()
         {
@@ -153,12 +145,14 @@ namespace MocapiThomas
             rectMenuContainer = new Rect(Screen.width - buttMotionsW - leftMargin, Screen.height - dictMotions.Count*(buttMotionsH+buttMotionsSpacing) - (bottomMargin/2), buttMotionsW, dictMotions.Count*(buttMotionsH+buttMotionsSpacing));
 
             //color definitions
-            Texture2D textureNorm = new Texture2D(128, 128);
+            textureNormWeak = new Texture2D(128, 128);
+            textureNorm = new Texture2D(128, 128);
             Texture2D textureHover = new Texture2D(128, 128);
-            //Color colorNorm = Color.cyan;
-            //Color colorHover = Color.white;
+            Color32 color32NormWeak = new Color32(184, 195, 201, 20);
             Color32 color32Norm = new Color32(184, 195, 201, 90);
             Color32 color32Hover = new Color32(222, 135, 170, 90);
+            color32text = new Color32(94, 116, 123, 0);
+
 
             //create background textures from colors
             int y = 0;
@@ -167,6 +161,7 @@ namespace MocapiThomas
                 int x = 0;
                 while (x < textureNorm.width)
                 {
+                    textureNormWeak.SetPixel(x, y, color32NormWeak);
                     textureNorm.SetPixel(x, y, color32Norm);
                     textureHover.SetPixel(x, y, color32Hover);
 
@@ -174,12 +169,9 @@ namespace MocapiThomas
                 }
                 ++y;
             }
+            textureNormWeak.Apply();
             textureNorm.Apply();
             textureHover.Apply();
-
-            //define style for background TEMP
-            //styleFlatBG = new GUIStyle();
-            //styleFlatBG.normal.background = textureNorm;
 
             //define style for transparent elements
             styleTransp = new GUIStyle();
@@ -190,7 +182,7 @@ namespace MocapiThomas
             styleFlatButton = new GUIStyle();
             styleFlatButton.normal.background = textureNorm;
             styleFlatButton.hover.background = textureHover;
-            styleFlatButton.normal.textColor = Color.white;
+            styleFlatButton.normal.textColor = color32text;
             styleFlatButton.hover.textColor = Color.black;
             styleFlatButton.fontSize = 12;
             styleFlatButton.fontStyle = FontStyle.Normal;
@@ -198,5 +190,12 @@ namespace MocapiThomas
 
         }
 
+        void Update() 
+        {
+            alphaText = Mathf.Lerp(alphaText, alphaTarget, Time.deltaTime * 5f);
+            byte inOut =  (byte)alphaText;
+            color32text.a = inOut;
+            styleFlatButton.normal.textColor = color32text;
+        }
     }
 }
