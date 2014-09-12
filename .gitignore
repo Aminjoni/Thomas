@@ -1,10 +1,11 @@
-Library/
-obj/
-Temp/
-Build/
-FBX.Sources/
-*.sln
-*.tmp
+UnityProject/Library/
+UnityProject/obj/
+UnityProject/Temp/
+UnityProject/Build/
+UnityProject/FBX.Sources/
+Thomas.Sources/
+UnityProject/*.sln
+UnityProject/*.tmp
 
 #################
 ## Visual Studio
