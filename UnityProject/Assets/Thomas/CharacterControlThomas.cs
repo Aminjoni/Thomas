@@ -383,8 +383,11 @@ namespace MocapiThomas
 		void Update () 
 		{
 
+
 			animState = anim.GetCurrentAnimatorStateInfo(0);
-            float playbackTime = animState.normalizedTime % 1;
+            //MocapiThomas.CameraGUI.Progress = animState.normalizedTime % 1;
+            MocapiThomas.CameraGUI.Progress = animState.normalizedTime;
+
 
 			ProcessInput();
 
@@ -488,7 +491,7 @@ namespace MocapiThomas
 
             if (Change == true)
             {
-                Debug.Log("Switch to " + MotionName);
+                //Debug.Log("Switch to " + MotionName);
 
                 _LongMasunaga = false;
                 _MaagStarking = false;

@@ -47,6 +47,7 @@ namespace MocapiThomas
         public static bool High = false;
         public static bool Low = false;
         public static string MotionButton;
+        public static float Progress=10;
 
         void OnGUI()
         {
@@ -56,6 +57,10 @@ namespace MocapiThomas
             MotionLabel = MocapiThomas.CharacterControlThomas.MotionLabel;
             // Viewport Label
             GUI.Label(new Rect(0, 10, Screen.width, 100), MocapiThomas.CharacterControlThomas.MotionLabel);
+
+            // Viewport Progressbar
+            //GUI.Box(new Rect(leftMargin, 1, (Screen.width-(leftMargin*2)) * 1, 2), "", styleFlatButton);
+            GUI.Box(new Rect(1, 1, (Screen.width - 2) * Progress, 2), "");
 
             // button up - camera forward
             if (GUI.RepeatButton(new Rect(leftMargin + buttDiameter, Screen.height - bottomMargin - (buttDiameter * 3), buttDiameter, buttDiameter), controlTex_Up)) { Up = true; }
