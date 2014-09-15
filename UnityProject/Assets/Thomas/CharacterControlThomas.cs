@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 
 namespace MocapiThomas
 { 
@@ -13,11 +13,6 @@ namespace MocapiThomas
 	/// </summary> 
 	public class CharacterControlThomas : MonoBehaviour 
 	{
-        /// <summary>
-        /// Name of the current motion to be shown as a label
-        /// </summary>       
-        public static string MotionLabel;
-
         /// <summary>
         /// Multiple Idle states
         /// list of available idle animations' vectors in 2D BlendTree (you need a corresponding 2D blendtree in Animator Controller)
@@ -40,16 +35,29 @@ namespace MocapiThomas
         /// <summary>
         //Thomas Clips 
         /// </summary>
-        static int ClipLMasunaga = Animator.StringToHash("Base Layer.long_masunaga");
-        static int ClipLmaagStark = Animator.StringToHash("Base Layer.maag_starking");
-        static int ClipHart = Animator.StringToHash("Base Layer.hart");
-        static int ClipBlaas = Animator.StringToHash("Base Layer.blaas");
+        public static Dictionary<int, string> dictMotions = new Dictionary<int, string>();
 
-        static int ClipZwing = Animator.StringToHash("Base Layer.zwing");
-        static int ClipLever = Animator.StringToHash("Base Layer.lever");
-        static int ClipKant_streking = Animator.StringToHash("Base Layer.kant_streking");
-        static int ClipBehandeling = Animator.StringToHash("Base Layer.behandeling");
-
+        static int ClipLongMasunaga = Animator.StringToHash("Base Layer.LongMasunaga");
+        static int ClipMaagStarking = Animator.StringToHash("Base Layer.MaagStarking");
+        static int ClipHart1 = Animator.StringToHash("Base Layer.Hart1");
+        static int ClipBlaas = Animator.StringToHash("Base Layer.Blaas");
+        static int ClipZwing = Animator.StringToHash("Base Layer.Zwing");
+        static int ClipLever = Animator.StringToHash("Base Layer.Lever");
+        static int ClipKantStreking = Animator.StringToHash("Base Layer.KantStreking");
+        static int ClipBehandeling1 = Animator.StringToHash("Base Layer.Behandeling1");
+        static int ClipMasunaga2 = Animator.StringToHash("Base Layer.Masunaga2");
+        static int ClipMasunaga3 = Animator.StringToHash("Base Layer.Masunaga3");
+        static int ClipMasunaga4 = Animator.StringToHash("Base Layer.Masunaga4");
+        static int ClipWarmingUp = Animator.StringToHash("Base Layer.WarmingUp");
+        static int ClipLong = Animator.StringToHash("Base Layer.Long");
+        static int ClipMaag = Animator.StringToHash("Base Layer.Maag");
+        static int ClipNier = Animator.StringToHash("Base Layer.Nier");
+        static int ClipWarmer = Animator.StringToHash("Base Layer.Warmer");
+        static int ClipHart2 = Animator.StringToHash("Base Layer.Hart2");
+        static int ClipRugSterking = Animator.StringToHash("Base Layer.RugSterking");
+        static int ClipLeverSterking = Animator.StringToHash("Base Layer.LeverSterking");
+        static int ClipBehandeling2 = Animator.StringToHash("Base Layer.Behandeling2");
+        static int ClipBehandeling3 = Animator.StringToHash("Base Layer.Behandeling3");
 
         /// <summary>
         /// flag to indicate if any valid input was given
@@ -137,6 +145,28 @@ namespace MocapiThomas
         /// Current animation state
         /// </summary>
         private AnimatorStateInfo animState;
+
+        /// <summary>
+        /// Name of the current motion to be shown as a label and to be processed as motion
+        /// </summary>       
+        public static string MotionLabel;
+        public static string MotionName;
+
+        /// <summary>
+        //Check for motion change
+        private string field;
+        public bool Change
+        {
+            get
+            {
+                if (field != MotionName)
+                {
+                    field = MotionName;
+                    return true;
+                }
+                return false;
+            }
+        }
 
         /// <summary>
         /// Check if animation in any of the IDLE state
@@ -274,143 +304,75 @@ namespace MocapiThomas
 
         // THOMAS motions
         /// <summary>
-        /// Long Masunaga flag from Thomas motions
+        /// XXX flag from Thomas motions
         /// </summary>
-        public bool LMasunaga
-        {
-            get { return _LMasunaga; }
-            set
-            {
-                _LMasunaga = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _LMasunaga;
+        public bool LongMasunaga { get { return _LongMasunaga; } set { _LongMasunaga = value; if (value) idle = false; } } private bool _LongMasunaga;
+        public bool MaagStarking { get { return _MaagStarking; } set { _MaagStarking = value; if (value) idle = false; } } private bool _MaagStarking;
+        public bool Hart1 { get { return _Hart1; } set { _Hart1 = value; if (value) idle = false; } } private bool _Hart1;
+        public bool Blaas { get { return _Blaas; } set { _Blaas = value; if (value) idle = false; } } private bool _Blaas;
+        public bool Zwing { get { return _Zwing; } set { _Zwing = value; if (value) idle = false; } } private bool _Zwing;
+        public bool Lever { get { return _Lever; } set { _Lever = value; if (value) idle = false; } } private bool _Lever;
+        public bool KantStreking { get { return _KantStreking; } set { _KantStreking = value; if (value) idle = false; } } private bool _KantStreking;
+        public bool Behandeling1 { get { return _Behandeling1; } set { _Behandeling1 = value; if (value) idle = false; } } private bool _Behandeling1;
+        public bool Masunaga2 { get { return _Masunaga2; } set { _Masunaga2 = value; if (value) idle = false; } } private bool _Masunaga2;
+        public bool Masunaga3 { get { return _Masunaga3; } set { _Masunaga3 = value; if (value) idle = false; } } private bool _Masunaga3;
+        public bool Masunaga4 { get { return _Masunaga4; } set { _Masunaga4 = value; if (value) idle = false; } } private bool _Masunaga4;
+        public bool WarmingUp { get { return _WarmingUp; } set { _WarmingUp = value; if (value) idle = false; } } private bool _WarmingUp;
+        public bool Long { get { return _Long; } set { _Long = value; if (value) idle = false; } } private bool _Long;
+        public bool Maag { get { return _Maag; } set { _Maag = value; if (value) idle = false; } } private bool _Maag;
+        public bool Nier { get { return _Nier; } set { _Nier = value; if (value) idle = false; } } private bool _Nier;
+        public bool Warmer { get { return _Warmer; } set { _Warmer = value; if (value) idle = false; } } private bool _Warmer;
+        public bool Hart2 { get { return _Hart2; } set { _Hart2 = value; if (value) idle = false; } } private bool _Hart2;
+        public bool RugSterking { get { return _RugSterking; } set { _RugSterking = value; if (value) idle = false; } } private bool _RugSterking;
+        public bool LeverSterking { get { return _LeverSterking; } set { _LeverSterking = value; if (value) idle = false; } } private bool _LeverSterking;
+        public bool Behandeling2 { get { return _Behandeling2; } set { _Behandeling2 = value; if (value) idle = false; } } private bool _Behandeling2;
+        public bool Behandeling3 { get { return _Behandeling3; } set { _Behandeling3 = value; if (value) idle = false; } } private bool _Behandeling3;
+        public bool Stop { get { return _Stop; } set { _Stop = value; if (value) idle = false; } } private bool _Stop;
 
-        /// <summary>
-        /// maag Starking flag from Thomas motions
-        /// </summary>
-        public bool maagStark 
-        {
-            get { return _maagStark; }
-            set
-            {
-                _maagStark = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _maagStark;
-
-        /// <summary>
-        /// hart flag from Thomas motions
-        /// </summary>
-        public bool hart
-        {
-            get { return _hart; }
-            set
-            {
-                _hart = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _hart;
-
-        /// <summary>
-        /// blaas flag from Thomas motions
-        /// </summary>
-        public bool blaas
-        {
-            get { return _blaas; }
-            set
-            {
-                _blaas = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _blaas;
-
-        /// <summary>
-        /// zwing flag from Thomas motions
-        /// </summary>
-        public bool zwing
-        {
-            get { return _zwing; }
-            set
-            {
-                _zwing = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _zwing;
-
-        /// <summary>
-        /// kant flag from Thomas motions
-        /// </summary>
-        public bool kant
-        {
-            get { return _kant; }
-            set
-            {
-                _kant = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _kant;
-
-        /// <summary>
-        /// lever flag from Thomas motions
-        /// </summary>
-        public bool lever
-        {
-            get { return _lever; }
-            set
-            {
-                _lever = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _lever;
-
-        /// <summary>
-        /// behand flag from Thomas motions
-        /// </summary>
-        public bool behand
-        {
-            get { return _behand; }
-            set
-            {
-                _behand = value;
-                if (value)
-                    idle = false;
-            }
-        }
-        private bool _behand;
 
 		/// <summary>
 		/// Set default values
 		/// </summary>
-		void Awake () 
-		{
-			//get animator from current gameObject
-			anim = GetComponent<Animator>();
-
-		}
-
-        void Start()
+        void Awake()
         {
+
+            //get animator from current gameObject
+            anim = GetComponent<Animator>();
 
             /// <summary>
             /// Populate the Idle Animation's list. 
             /// Would be nice if thes could be read directly from Animator Controller
             /// </summary>
-            idleAnimsList = new Vector2[] { idle1, idle2, idle3, idle4, idle5, idle6 }; 
+            idleAnimsList = new Vector2[] { idle1, idle2, idle3, idle4, idle5, idle6 };
+
+            //Load all motions into a dictionary
+            dictMotions.Add(0, "Long Masunaga");
+            dictMotions.Add(1, "Maag Starking");
+            dictMotions.Add(2, "Hart 1");
+            dictMotions.Add(3, "Blaas");
+            dictMotions.Add(4, "Zwing");
+            dictMotions.Add(5, "Lever");
+            dictMotions.Add(6, "Kant Streking");
+            dictMotions.Add(7, "Behandeling 1");
+            dictMotions.Add(8, "Masunaga 2");
+            dictMotions.Add(9, "Masunaga 3");
+            dictMotions.Add(10, "Masunaga 4");
+            dictMotions.Add(11, "Warming Up");
+            dictMotions.Add(12, "Long");
+            dictMotions.Add(13, "Maag");
+            dictMotions.Add(14, "Nier");
+            dictMotions.Add(15, "Warmer");
+            dictMotions.Add(16, "Hart 2");
+            dictMotions.Add(17, "Rug Sterking");
+            dictMotions.Add(18, "Lever Sterking");
+            dictMotions.Add(19, "Behandeling 2");
+            dictMotions.Add(20, "Behandeling 3");
+            dictMotions.Add(21, "Stop");
+
+        }
+
+        void Start()
+        {
 
         }
 	
@@ -421,7 +383,8 @@ namespace MocapiThomas
 		void Update () 
 		{
 
-			//animState = anim.GetCurrentAnimatorStateInfo(0);
+			animState = anim.GetCurrentAnimatorStateInfo(0);
+            float playbackTime = animState.normalizedTime % 1;
 
 			ProcessInput();
 
@@ -434,111 +397,226 @@ namespace MocapiThomas
 		}
 
 
-        
+
         /// <summary>
-		/// Update the character based on local values.
-		/// These values can be modified by
-		/// </summary>
-		void UpdateAnimator()
-		{
+        /// Get the input from keyboard or Joystick
+        /// </summary>
+        void ProcessInput()
+        {
+            idle = true;
 
-			//change idle state if possible
-			if(Idle)
-			{
-                IdleVariants();
-			}
-            else
+            //Select inputMethod
+            //if (Input.GetKey(KeyCode.F1))
+            //{
+            //    //inputMethod = InputMethod.Keyboard;     //set to keyboard
+            //}
+            //else if (Input.GetKey(KeyCode.F2))
+            //{
+            //    //inputMethod = InputMethod.Mouse;        //set to mouse
+            //}
+            //else if (Input.GetKey(KeyCode.F3))
+            //{
+            //    //inputMethod = InputMethod.Joystick;     //set to joystick
+            //}
+            //else if (Input.GetKey(KeyCode.F4))
+            //{
+            //    inputMethod = InputMethod.All;     //set to joystick
+            //}
+
+
+            //Process movement based on inputMethod - "All Inputs" locked as default method
+            switch (inputMethod)
             {
-                NextIdle = 0;
-            }
- 
-			//update animator		    
-			anim.SetFloat("Move", stickInput.y);
-			anim.SetFloat("Direction", stickInput.x);
 
-			anim.SetBool("Idle", idle);
-			anim.SetBool("SitDown", sitDown);
-			anim.SetBool("Alert", alert);
-            anim.SetBool("LookAround", look);
-			anim.SetBool("Run", run);
-            anim.SetBool("Strafe", strafe);
+                case InputMethod.Keyboard:
+                    ProcessKeyboard();
+                    break;
 
-                //Thomas group
-            anim.SetBool("LMasunaga", _LMasunaga);
-            anim.SetBool("maagStark", _maagStark);
-            anim.SetBool("hart", _hart);
-            anim.SetBool("blaas", _blaas);
+                case InputMethod.Mouse:
+                    ProcessMouse();
+                    break;
 
-            anim.SetBool("zwing", _zwing);
-            anim.SetBool("lever", _lever);
-            anim.SetBool("kant", _kant);
-            anim.SetBool("behand", _behand);
+                case InputMethod.Joystick:
+                    ProcessJoystick();
+                    break;
 
-			//Debug.Log("Move:"+move);
-			//Debug.Log("Dir:"+direction);
-			//Debug.Log("Strafe:"+strafe);
-
-		}
-
-		/// <summary>
-		/// Get the input from keyboard or Joystick
-		/// </summary>
-		void ProcessInput()
-		{
-			idle = true;
-
-            //Process movement based on inputMethod
-            switch(inputMethod)
-            {
-            	case InputMethod.None:
-            		//we don't handle input in this case
-            		//leave this for control from outside.
-            		return;            		
-
-            	case InputMethod.Keyboard:
-            		ProcessKeyboard();
-            		break;
-
-            	case InputMethod.Mouse:
-            		ProcessMouse();
-            		break;
-
-            	case InputMethod.Joystick:
-            		ProcessJoystick();
-            		break;
-
-                case InputMethod.All:   //Locked as default method
+                case InputMethod.All:   
                     ProcessAll();
                     break;
 
             }
 
-			//process basic keys
+
+            //process basic keys
             //Set constantly in "All inputs" mode. Edit script to enable input switching
-			if (Input.GetKey(KeyCode.Escape))
+            if (Input.GetKey(KeyCode.Escape))
             {
                 Debug.Log("Exit!");
                 Application.Quit();
             }
 
-            if( Input.GetKey(KeyCode.F1))
+            
+        }
+
+        /// <summary>
+        /// Process all inputs
+        /// </summary>
+        void ProcessAll()
+        {
+
+            if (Run == true)
             {
-                //inputMethod = InputMethod.Keyboard;     //set to keyboard
+                keyRunMultiplier = Mathf.Lerp(keyRunMultiplier, 1f, Time.deltaTime * keybSmooth);
+
             }
-            else if( Input.GetKey(KeyCode.F2))
+            else
             {
-                //inputMethod = InputMethod.Mouse;        //set to mouse
-            }
-            else if( Input.GetKey(KeyCode.F3))
-            {
-                //inputMethod = InputMethod.Joystick;     //set to joystick
-            }
-            else if (Input.GetKey(KeyCode.F4))
-            {
-                inputMethod = InputMethod.All;     //set to joystick
+                keyRunMultiplier = Mathf.Lerp(keyRunMultiplier, .5f, Time.deltaTime * keybSmooth);
             }
 
-		}
+
+            //Process all axis. Mouse controls not used
+            Move = Input.GetAxis(joyMoveAxis) + (Input.GetAxis(keyMoveAxis) * keyRunMultiplier);
+            Direction = Input.GetAxis(joyTurnAxis) + Input.GetAxis(keyTurnAxis);
+
+            //process Joystick and Keyboard buttons
+            Alert = Input.GetButton(joyAlertButton);
+            Strafe = Input.GetKey(joyStrafeButton) || Input.GetKey(keyStrafeButton);
+            SitDown = Input.GetButton(joySitButton);
+            Look = Input.GetButton(joyLookButton);
+            Run = Input.GetKey(keyRunButton);
+
+            if (Change == true)
+            {
+                Debug.Log("Switch to " + MotionName);
+
+                _LongMasunaga = false;
+                _MaagStarking = false;
+                _Hart1 = false;
+                _Blaas = false;
+                _Zwing = false;
+                _Lever = false;
+                _KantStreking = false;
+                _Behandeling1 = false;
+                _Masunaga2 = false;
+                _Masunaga3 = false;
+                _Masunaga4 = false;
+                _WarmingUp = false;
+                _Long = false;
+                _Maag = false;
+                _Nier = false;
+                _Warmer = false;
+                _Hart2 = false;
+                _RugSterking = false;
+                _LeverSterking = false;
+                _Behandeling2 = false;
+                _Behandeling3 = false;
+                _Stop = false;
+
+                switch (MotionName)
+                {
+                    case "Long Masunaga":
+                        _LongMasunaga	=true	;
+                        break;
+                    case "Maag Starking":
+                        _MaagStarking = true;
+                        break;
+                    case "Hart 1":
+                        _Hart1 = true;
+                        break;
+                    case "Blaas":
+                        _Blaas = true;
+                        break;
+                    case "Zwing":
+                        _Zwing = true;
+                        break;
+                    case "Lever":
+                        _Lever = true;
+                        break;
+                    case "Kant Streking":
+                        _KantStreking = true;
+                        break;
+                    case "Behandeling 1":
+                        _Behandeling1 = true;
+                        break;
+                    case "Masunaga 2":
+                        _Masunaga2 = true;
+                        break;
+                    case "Masunaga 3":
+                        _Masunaga3 = true;
+                        break;
+                    case "Masunaga 4":
+                        _Masunaga4 = true;
+                        break;
+                    case "Warming Up":
+                        _WarmingUp = true;
+                        break;
+                    case "Long":
+                        _Long = true;
+                        break;
+                    case "Maag":
+                        _Maag = true;
+                        break;
+                    case "Nier":
+                        _Nier = true;
+                        break;
+                    case "Warmer":
+                        _Warmer = true;
+                        break;
+                    case "Hart 2":
+                        _Hart2 = true;
+                        break;
+                    case "Rug Sterking":
+                        _RugSterking = true;
+                        break;
+                    case "Lever Sterking":
+                        _LeverSterking = true;
+                        break;
+                    case "Behandeling 2":
+                        _Behandeling2 = true;
+                        break;
+                    case "Behandeling 3":
+                        _Behandeling3 = true;
+                        break;
+                    case "Stop":
+                        _Stop = true;
+                        break;
+                }
+                       MotionName = null;
+
+            }
+
+            ////Thomas motions - keypress buttons
+            //LMasunaga = Input.GetKey(MocapiThomas.InputSettings.keyT_long_masunaga);
+            //maagStark = Input.GetKey(MocapiThomas.InputSettings.keyT_maagStark);
+            //hart = Input.GetKey(MocapiThomas.InputSettings.keyT_hart);
+            //blaas = Input.GetKey(MocapiThomas.InputSettings.keyT_blaas);
+
+            //zwing = Input.GetKey(MocapiThomas.InputSettings.keyT_zwing);
+            //lever = Input.GetKey(MocapiThomas.InputSettings.keyT_lever);
+            //kant = Input.GetKey(MocapiThomas.InputSettings.keyT_kant);
+            //behand = Input.GetKey(MocapiThomas.InputSettings.keyT_behand);
+
+            //process UI buttons
+            //Alert = Input.GetButton(joyAlertButton);
+            //Strafe = Input.GetKey(joyStrafeButton) || Input.GetKey(keyStrafeButton);
+            //SitDown = Input.GetButton(joySitButton);
+            //Look = Input.GetButton(joyLookButton);
+            //Run = Input.GetKey(keyRunButton);
+
+            //Debug.Log(MocapiThomas.CameraGUI.MotionButton);
+
+            //LMasunaga = ;
+            //maagStark = Input.GetKey(MocapiThomas.InputSettings.keyT_maagStark);
+            //hart = Input.GetKey(MocapiThomas.InputSettings.keyT_hart);
+            //blaas = Input.GetKey(MocapiThomas.InputSettings.keyT_blaas);
+
+            //zwing = Input.GetKey(MocapiThomas.InputSettings.keyT_zwing);
+            //lever = Input.GetKey(MocapiThomas.InputSettings.keyT_lever);
+            //kant = Input.GetKey(MocapiThomas.InputSettings.keyT_kant);
+            //behand = Input.GetKey(MocapiThomas.InputSettings.keyT_behand);
+
+        }
 
         /// <summary>
         /// Tweak input values acording to a deadzone.
@@ -563,43 +641,60 @@ namespace MocapiThomas
 
         }
 
-		/// <summary>
-		/// Process all inputs
-		/// </summary>
-        void ProcessAll()
+
+        /// <summary>
+        /// Update the character based on local values.
+        /// These values can be modified by
+        /// </summary>
+        void UpdateAnimator()
         {
 
-            if (Run == true)
+            //change idle state if possible
+            if (Idle)
             {
-                keyRunMultiplier = Mathf.Lerp(keyRunMultiplier, 1f, Time.deltaTime * keybSmooth );
-
+                IdleVariants();
             }
             else
             {
-                keyRunMultiplier = Mathf.Lerp(keyRunMultiplier, .5f, Time.deltaTime * keybSmooth );
+                NextIdle = 0;
             }
 
+            //update animator		    
+            anim.SetFloat("Move", stickInput.y);
+            anim.SetFloat("Direction", stickInput.x);
 
-            //Process all axis. Mouse controls not used
-            Move = Input.GetAxis(joyMoveAxis) + (Input.GetAxis(keyMoveAxis) * keyRunMultiplier);
-            Direction = Input.GetAxis(joyTurnAxis) + Input.GetAxis(keyTurnAxis);
+            anim.SetBool("Idle", idle);
+            anim.SetBool("SitDown", sitDown);
+            anim.SetBool("Alert", alert);
+            anim.SetBool("LookAround", look);
+            anim.SetBool("Run", run);
+            anim.SetBool("Strafe", strafe);
 
-            //process Joystick and Keyboard buttons
-            Alert = Input.GetButton(joyAlertButton);
-            Strafe = Input.GetKey(joyStrafeButton) || Input.GetKey(keyStrafeButton);
-            SitDown = Input.GetButton(joySitButton);
-            Look = Input.GetButton(joyLookButton);
-            Run = Input.GetKey(keyRunButton);
+            //Debug.Log(_LongMasunaga);
 
-            LMasunaga = Input.GetKey(MocapiThomas.InputSettings.keyT_long_masunaga);
-            maagStark = Input.GetKey(MocapiThomas.InputSettings.keyT_maagStark);
-            hart = Input.GetKey(MocapiThomas.InputSettings.keyT_hart);
-            blaas = Input.GetKey(MocapiThomas.InputSettings.keyT_blaas);
-
-            zwing = Input.GetKey(MocapiThomas.InputSettings.keyT_zwing);
-            lever = Input.GetKey(MocapiThomas.InputSettings.keyT_lever);
-            kant = Input.GetKey(MocapiThomas.InputSettings.keyT_kant);
-            behand = Input.GetKey(MocapiThomas.InputSettings.keyT_behand);
+            //Thomas group
+            anim.SetBool("Long Masunaga", _LongMasunaga);
+            anim.SetBool("Maag Starking", _MaagStarking);
+            anim.SetBool("Hart 1", _Hart1);
+            anim.SetBool("Blaas", _Blaas);
+            anim.SetBool("Zwing", _Zwing);
+            anim.SetBool("Lever", _Lever);
+            anim.SetBool("Kant Streking", _KantStreking);
+            anim.SetBool("Behandeling 1", _Behandeling1);
+            anim.SetBool("Masunaga 2", _Masunaga2);
+            anim.SetBool("Masunaga 3", _Masunaga3);
+            anim.SetBool("Masunaga 4", _Masunaga4);
+            anim.SetBool("Warming Up", _WarmingUp);
+            anim.SetBool("Long", _Long);
+            anim.SetBool("Maag", _Maag);
+            anim.SetBool("Nier", _Nier);
+            anim.SetBool("Warmer", _Warmer);
+            anim.SetBool("Hart 2", _Hart2);
+            anim.SetBool("Rug Sterking", _RugSterking);
+            anim.SetBool("Lever Sterking", _LeverSterking);
+            anim.SetBool("Behandeling 2", _Behandeling2);
+            anim.SetBool("Behandeling 3", _Behandeling3);
+            anim.SetBool("Stop", _Stop);
 
         }
 
@@ -607,14 +702,14 @@ namespace MocapiThomas
         {
             animState = anim.GetCurrentAnimatorStateInfo(0);
 
-            if (animState.nameHash == ClipLMasunaga) { MotionLabel = "Long Masunaga"; }
-            else if (animState.nameHash == ClipLmaagStark) { MotionLabel = "Maag Starking"; }
-            else if (animState.nameHash == ClipHart) { MotionLabel = "Hart"; }
+            if (animState.nameHash == ClipLongMasunaga) { MotionLabel = "Long Masunaga"; }
+            else if (animState.nameHash == ClipMaagStarking) { MotionLabel = "Maag Starking"; }
+            else if (animState.nameHash == ClipHart1) { MotionLabel = "Hart"; }
             else if (animState.nameHash == ClipBlaas) { MotionLabel = "Blaas"; }
             else if (animState.nameHash == ClipZwing) { MotionLabel = "Zwing"; }
             else if (animState.nameHash == ClipLever) { MotionLabel = "Lever"; }
-            else if (animState.nameHash == ClipKant_streking) { MotionLabel = "Kant Streking"; }
-            else if (animState.nameHash == ClipBehandeling) { MotionLabel = "Behandeling"; }
+            else if (animState.nameHash == ClipKantStreking) { MotionLabel = "Kant Streking"; }
+            else if (animState.nameHash == ClipBehandeling1) { MotionLabel = "Behandeling"; }
             else { MotionLabel = "_ _ _"; }
 
         }
