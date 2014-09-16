@@ -35,8 +35,7 @@ namespace MocapiThomas
         //Current Motion Label
         private string MotionLabel;
 
-        //Array of available motions
-        //public static Dictionary<int, string> dictMotions = new Dictionary<int, string>();
+        //Array of available motions, constructed inside character script
         private Dictionary<int, string> dictMotions;
 
         //make values available in other scripts

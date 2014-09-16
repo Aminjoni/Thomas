@@ -701,18 +701,34 @@ namespace MocapiThomas
 
         }
 
+        /// <summary>
+        /// Generate label name corresponding to the current animation
+        /// </summary>
         void SetLabel()
         {
             animState = anim.GetCurrentAnimatorStateInfo(0);
 
             if (animState.nameHash == ClipLongMasunaga) { MotionLabel = "Long Masunaga"; }
             else if (animState.nameHash == ClipMaagStarking) { MotionLabel = "Maag Starking"; }
-            else if (animState.nameHash == ClipHart1) { MotionLabel = "Hart"; }
+            else if (animState.nameHash == ClipHart1) { MotionLabel = "Hart 1"; }
             else if (animState.nameHash == ClipBlaas) { MotionLabel = "Blaas"; }
             else if (animState.nameHash == ClipZwing) { MotionLabel = "Zwing"; }
             else if (animState.nameHash == ClipLever) { MotionLabel = "Lever"; }
             else if (animState.nameHash == ClipKantStreking) { MotionLabel = "Kant Streking"; }
-            else if (animState.nameHash == ClipBehandeling1) { MotionLabel = "Behandeling"; }
+            else if (animState.nameHash == ClipBehandeling1) { MotionLabel = "Behandeling 1"; }
+            else if (animState.nameHash == ClipMasunaga2) { MotionLabel = "Masunaga 2"; }
+            else if (animState.nameHash == ClipMasunaga3) { MotionLabel = "Masunaga 3"; }
+            else if (animState.nameHash == ClipMasunaga4) { MotionLabel = "Masunaga 4"; }
+            else if (animState.nameHash == ClipWarmingUp) { MotionLabel = "Warming Up"; }
+            else if (animState.nameHash == ClipLong) { MotionLabel = "Long"; }
+            else if (animState.nameHash == ClipMaag) { MotionLabel = "Maag"; }
+            else if (animState.nameHash == ClipNier) { MotionLabel = "Nier"; }
+            else if (animState.nameHash == ClipWarmer) { MotionLabel = "Warmer"; }
+            else if (animState.nameHash == ClipHart2) { MotionLabel = "Hart 2"; }
+            else if (animState.nameHash == ClipRugSterking) { MotionLabel = "Rug Sterking"; }
+            else if (animState.nameHash == ClipLeverSterking) { MotionLabel = "Lever Sterking"; }
+            else if (animState.nameHash == ClipBehandeling2) { MotionLabel = "Behandeling 2"; }
+            else if (animState.nameHash == ClipBehandeling3) { MotionLabel = "Behandeling 3"; }
             else { MotionLabel = "_ _ _"; }
 
         }

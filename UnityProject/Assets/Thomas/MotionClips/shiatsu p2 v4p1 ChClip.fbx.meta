@@ -1,0 +1,3457 @@
+fileFormatVersion: 2
+guid: 5cea8ab2075698844ae74f794c73cf6c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Head 2
+    100004: Hips 1
+    100006: LeftArm 1
+    100008: LeftFoot 2
+    100010: LeftForeArm 2
+    100012: LeftHand 2
+    100014: LeftHandIndex1
+    100016: LeftHandIndex2
+    100018: LeftHandIndex3
+    100020: LeftHandMiddle1
+    100022: LeftHandMiddle2
+    100024: LeftHandMiddle3
+    100026: LeftHandPinky1
+    100028: LeftHandPinky2
+    100030: LeftHandPinky3
+    100032: LeftHandRing1
+    100034: LeftHandRing2
+    100036: LeftHandRing3
+    100038: LeftHandThumb1
+    100040: LeftHandThumb2
+    100042: LeftHandThumb3
+    100044: LeftLeg 1
+    100046: LeftShoulder 2
+    100048: LeftToes
+    100050: LeftUpLeg 1
+    100052: Mocapi Character_Ctrl:ChestEndEffector
+    100054: Mocapi Character_Ctrl:ChestOriginEffector
+    100056: Mocapi Character_Ctrl:Head
+    100058: Mocapi Character_Ctrl:HeadEffector
+    100060: Mocapi Character_Ctrl:Hips
+    100062: Mocapi Character_Ctrl:HipsEffector
+    100064: Mocapi Character_Ctrl:LeftAnkleEffector
+    100066: Mocapi Character_Ctrl:LeftArm
+    100068: Mocapi Character_Ctrl:LeftElbowEffector
+    100070: Mocapi Character_Ctrl:LeftFoot
+    100072: Mocapi Character_Ctrl:LeftFootEffector
+    100074: Mocapi Character_Ctrl:LeftForeArm
+    100076: Mocapi Character_Ctrl:LeftHand
+    100078: Mocapi Character_Ctrl:LeftHandIndex1
+    100080: Mocapi Character_Ctrl:LeftHandIndex2
+    100082: Mocapi Character_Ctrl:LeftHandIndex3
+    100084: Mocapi Character_Ctrl:LeftHandIndexEffector
+    100086: Mocapi Character_Ctrl:LeftHandMiddle1
+    100088: Mocapi Character_Ctrl:LeftHandMiddle2
+    100090: Mocapi Character_Ctrl:LeftHandMiddle3
+    100092: Mocapi Character_Ctrl:LeftHandMiddleEffector
+    100094: Mocapi Character_Ctrl:LeftHandPinky1
+    100096: Mocapi Character_Ctrl:LeftHandPinky2
+    100098: Mocapi Character_Ctrl:LeftHandPinky3
+    100100: Mocapi Character_Ctrl:LeftHandPinkyEffector
+    100102: Mocapi Character_Ctrl:LeftHandRing1
+    100104: Mocapi Character_Ctrl:LeftHandRing2
+    100106: Mocapi Character_Ctrl:LeftHandRing3
+    100108: Mocapi Character_Ctrl:LeftHandRingEffector
+    100110: Mocapi Character_Ctrl:LeftHandThumb1
+    100112: Mocapi Character_Ctrl:LeftHandThumb2
+    100114: Mocapi Character_Ctrl:LeftHandThumb3
+    100116: Mocapi Character_Ctrl:LeftHandThumbEffector
+    100118: Mocapi Character_Ctrl:LeftHipEffector
+    100120: Mocapi Character_Ctrl:LeftKneeEffector
+    100122: Mocapi Character_Ctrl:LeftLeg
+    100124: Mocapi Character_Ctrl:LeftShoulder
+    100126: Mocapi Character_Ctrl:LeftShoulderEffector
+    100128: Mocapi Character_Ctrl:LeftToeBase
+    100130: Mocapi Character_Ctrl:LeftUpLeg
+    100132: Mocapi Character_Ctrl:LeftWristEffector
+    100134: Mocapi Character_Ctrl:Neck
+    100136: Mocapi Character_Ctrl:Reference
+    100138: Mocapi Character_Ctrl:RightAnkleEffector
+    100140: Mocapi Character_Ctrl:RightArm
+    100142: Mocapi Character_Ctrl:RightElbowEffector
+    100144: Mocapi Character_Ctrl:RightFoot
+    100146: Mocapi Character_Ctrl:RightFootEffector
+    100148: Mocapi Character_Ctrl:RightForeArm
+    100150: Mocapi Character_Ctrl:RightHand
+    100152: Mocapi Character_Ctrl:RightHandIndex1
+    100154: Mocapi Character_Ctrl:RightHandIndex2
+    100156: Mocapi Character_Ctrl:RightHandIndex3
+    100158: Mocapi Character_Ctrl:RightHandIndexEffector
+    100160: Mocapi Character_Ctrl:RightHandMiddle1
+    100162: Mocapi Character_Ctrl:RightHandMiddle2
+    100164: Mocapi Character_Ctrl:RightHandMiddle3
+    100166: Mocapi Character_Ctrl:RightHandMiddleEffector
+    100168: Mocapi Character_Ctrl:RightHandPinky1
+    100170: Mocapi Character_Ctrl:RightHandPinky2
+    100172: Mocapi Character_Ctrl:RightHandPinky3
+    100174: Mocapi Character_Ctrl:RightHandPinkyEffector
+    100176: Mocapi Character_Ctrl:RightHandRing1
+    100178: Mocapi Character_Ctrl:RightHandRing2
+    100180: Mocapi Character_Ctrl:RightHandRing3
+    100182: Mocapi Character_Ctrl:RightHandRingEffector
+    100184: Mocapi Character_Ctrl:RightHandThumb1
+    100186: Mocapi Character_Ctrl:RightHandThumb2
+    100188: Mocapi Character_Ctrl:RightHandThumb3
+    100190: Mocapi Character_Ctrl:RightHandThumbEffector
+    100192: Mocapi Character_Ctrl:RightHipEffector
+    100194: Mocapi Character_Ctrl:RightKneeEffector
+    100196: Mocapi Character_Ctrl:RightLeg
+    100198: Mocapi Character_Ctrl:RightShoulder
+    100200: Mocapi Character_Ctrl:RightShoulderEffector
+    100202: Mocapi Character_Ctrl:RightToeBase
+    100204: Mocapi Character_Ctrl:RightUpLeg
+    100206: Mocapi Character_Ctrl:RightWristEffector
+    100208: Mocapi Character_Ctrl:Spine
+    100210: MocapiMan_Rig
+    100212: Neck 2
+    100214: RightArm 1
+    100216: RightFoot 2
+    100218: RightForeArm 2
+    100220: RightHand 2
+    100222: RightHandIndex1
+    100224: RightHandIndex2
+    100226: RightHandIndex3
+    100228: RightHandMiddle1
+    100230: RightHandMiddle2
+    100232: RightHandMiddle3
+    100234: RightHandPinky1
+    100236: RightHandPinky2
+    100238: RightHandPinky3
+    100240: RightHandRing1
+    100242: RightHandRing2
+    100244: RightHandRing3
+    100246: RightHandThumb1
+    100248: RightHandThumb2
+    100250: RightHandThumb3
+    100252: RightLeg 1
+    100254: RightShoulder 2
+    100256: RightToes
+    100258: RightUpLeg 1
+    100260: //RootNode
+    100262: Spine 1
+    400000: Chest
+    400002: Head 2
+    400004: Hips 1
+    400006: LeftArm 1
+    400008: LeftFoot 2
+    400010: LeftForeArm 2
+    400012: LeftHand 2
+    400014: LeftHandIndex1
+    400016: LeftHandIndex2
+    400018: LeftHandIndex3
+    400020: LeftHandMiddle1
+    400022: LeftHandMiddle2
+    400024: LeftHandMiddle3
+    400026: LeftHandPinky1
+    400028: LeftHandPinky2
+    400030: LeftHandPinky3
+    400032: LeftHandRing1
+    400034: LeftHandRing2
+    400036: LeftHandRing3
+    400038: LeftHandThumb1
+    400040: LeftHandThumb2
+    400042: LeftHandThumb3
+    400044: LeftLeg 1
+    400046: LeftShoulder 2
+    400048: LeftToes
+    400050: LeftUpLeg 1
+    400052: Mocapi Character_Ctrl:ChestEndEffector
+    400054: Mocapi Character_Ctrl:ChestOriginEffector
+    400056: Mocapi Character_Ctrl:Head
+    400058: Mocapi Character_Ctrl:HeadEffector
+    400060: Mocapi Character_Ctrl:Hips
+    400062: Mocapi Character_Ctrl:HipsEffector
+    400064: Mocapi Character_Ctrl:LeftAnkleEffector
+    400066: Mocapi Character_Ctrl:LeftArm
+    400068: Mocapi Character_Ctrl:LeftElbowEffector
+    400070: Mocapi Character_Ctrl:LeftFoot
+    400072: Mocapi Character_Ctrl:LeftFootEffector
+    400074: Mocapi Character_Ctrl:LeftForeArm
+    400076: Mocapi Character_Ctrl:LeftHand
+    400078: Mocapi Character_Ctrl:LeftHandIndex1
+    400080: Mocapi Character_Ctrl:LeftHandIndex2
+    400082: Mocapi Character_Ctrl:LeftHandIndex3
+    400084: Mocapi Character_Ctrl:LeftHandIndexEffector
+    400086: Mocapi Character_Ctrl:LeftHandMiddle1
+    400088: Mocapi Character_Ctrl:LeftHandMiddle2
+    400090: Mocapi Character_Ctrl:LeftHandMiddle3
+    400092: Mocapi Character_Ctrl:LeftHandMiddleEffector
+    400094: Mocapi Character_Ctrl:LeftHandPinky1
+    400096: Mocapi Character_Ctrl:LeftHandPinky2
+    400098: Mocapi Character_Ctrl:LeftHandPinky3
+    400100: Mocapi Character_Ctrl:LeftHandPinkyEffector
+    400102: Mocapi Character_Ctrl:LeftHandRing1
+    400104: Mocapi Character_Ctrl:LeftHandRing2
+    400106: Mocapi Character_Ctrl:LeftHandRing3
+    400108: Mocapi Character_Ctrl:LeftHandRingEffector
+    400110: Mocapi Character_Ctrl:LeftHandThumb1
+    400112: Mocapi Character_Ctrl:LeftHandThumb2
+    400114: Mocapi Character_Ctrl:LeftHandThumb3
+    400116: Mocapi Character_Ctrl:LeftHandThumbEffector
+    400118: Mocapi Character_Ctrl:LeftHipEffector
+    400120: Mocapi Character_Ctrl:LeftKneeEffector
+    400122: Mocapi Character_Ctrl:LeftLeg
+    400124: Mocapi Character_Ctrl:LeftShoulder
+    400126: Mocapi Character_Ctrl:LeftShoulderEffector
+    400128: Mocapi Character_Ctrl:LeftToeBase
+    400130: Mocapi Character_Ctrl:LeftUpLeg
+    400132: Mocapi Character_Ctrl:LeftWristEffector
+    400134: Mocapi Character_Ctrl:Neck
+    400136: Mocapi Character_Ctrl:Reference
+    400138: Mocapi Character_Ctrl:RightAnkleEffector
+    400140: Mocapi Character_Ctrl:RightArm
+    400142: Mocapi Character_Ctrl:RightElbowEffector
+    400144: Mocapi Character_Ctrl:RightFoot
+    400146: Mocapi Character_Ctrl:RightFootEffector
+    400148: Mocapi Character_Ctrl:RightForeArm
+    400150: Mocapi Character_Ctrl:RightHand
+    400152: Mocapi Character_Ctrl:RightHandIndex1
+    400154: Mocapi Character_Ctrl:RightHandIndex2
+    400156: Mocapi Character_Ctrl:RightHandIndex3
+    400158: Mocapi Character_Ctrl:RightHandIndexEffector
+    400160: Mocapi Character_Ctrl:RightHandMiddle1
+    400162: Mocapi Character_Ctrl:RightHandMiddle2
+    400164: Mocapi Character_Ctrl:RightHandMiddle3
+    400166: Mocapi Character_Ctrl:RightHandMiddleEffector
+    400168: Mocapi Character_Ctrl:RightHandPinky1
+    400170: Mocapi Character_Ctrl:RightHandPinky2
+    400172: Mocapi Character_Ctrl:RightHandPinky3
+    400174: Mocapi Character_Ctrl:RightHandPinkyEffector
+    400176: Mocapi Character_Ctrl:RightHandRing1
+    400178: Mocapi Character_Ctrl:RightHandRing2
+    400180: Mocapi Character_Ctrl:RightHandRing3
+    400182: Mocapi Character_Ctrl:RightHandRingEffector
+    400184: Mocapi Character_Ctrl:RightHandThumb1
+    400186: Mocapi Character_Ctrl:RightHandThumb2
+    400188: Mocapi Character_Ctrl:RightHandThumb3
+    400190: Mocapi Character_Ctrl:RightHandThumbEffector
+    400192: Mocapi Character_Ctrl:RightHipEffector
+    400194: Mocapi Character_Ctrl:RightKneeEffector
+    400196: Mocapi Character_Ctrl:RightLeg
+    400198: Mocapi Character_Ctrl:RightShoulder
+    400200: Mocapi Character_Ctrl:RightShoulderEffector
+    400202: Mocapi Character_Ctrl:RightToeBase
+    400204: Mocapi Character_Ctrl:RightUpLeg
+    400206: Mocapi Character_Ctrl:RightWristEffector
+    400208: Mocapi Character_Ctrl:Spine
+    400210: MocapiMan_Rig
+    400212: Neck 2
+    400214: RightArm 1
+    400216: RightFoot 2
+    400218: RightForeArm 2
+    400220: RightHand 2
+    400222: RightHandIndex1
+    400224: RightHandIndex2
+    400226: RightHandIndex3
+    400228: RightHandMiddle1
+    400230: RightHandMiddle2
+    400232: RightHandMiddle3
+    400234: RightHandPinky1
+    400236: RightHandPinky2
+    400238: RightHandPinky3
+    400240: RightHandRing1
+    400242: RightHandRing2
+    400244: RightHandRing3
+    400246: RightHandThumb1
+    400248: RightHandThumb2
+    400250: RightHandThumb3
+    400252: RightLeg 1
+    400254: RightShoulder 2
+    400256: RightToes
+    400258: RightUpLeg 1
+    400260: //RootNode
+    400262: Spine 1
+    7400000: Nier1
+    7400002: Maag
+    7400004: Nier2
+    7400006: Warmer
+    7400008: Hart 2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Maag
+      takeName: shiatsu p2 maag-behandeling1 - p1
+      firstFrame: 275
+      lastFrame: 1735
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mocapi Character_Ctrl:Reference
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestEndEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestOriginEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HeadEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot/Mocapi Character_Ctrl:LeftToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot/Mocapi Character_Ctrl:RightToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2/Mocapi
+          Character_Ctrl:LeftHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2/Mocapi
+          Character_Ctrl:LeftHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2/Mocapi
+          Character_Ctrl:LeftHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2/Mocapi
+          Character_Ctrl:LeftHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2/Mocapi
+          Character_Ctrl:LeftHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck/Mocapi Character_Ctrl:Head
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2/Mocapi
+          Character_Ctrl:RightHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2/Mocapi
+          Character_Ctrl:RightHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2/Mocapi
+          Character_Ctrl:RightHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2/Mocapi
+          Character_Ctrl:RightHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2/Mocapi
+          Character_Ctrl:RightHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HipsEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftWristEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightWristEffector
+        weight: 0
+      - path: MocapiMan_Rig
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2/LeftToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2/RightToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2/LeftHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2/Head 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2/RightHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2/RightHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2/RightHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2/RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Nier1
+      takeName: shiatsu p2 maag-behandeling1 - p1
+      firstFrame: 1740
+      lastFrame: 2825
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mocapi Character_Ctrl:Reference
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestEndEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestOriginEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HeadEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot/Mocapi Character_Ctrl:LeftToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot/Mocapi Character_Ctrl:RightToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2/Mocapi
+          Character_Ctrl:LeftHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2/Mocapi
+          Character_Ctrl:LeftHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2/Mocapi
+          Character_Ctrl:LeftHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2/Mocapi
+          Character_Ctrl:LeftHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2/Mocapi
+          Character_Ctrl:LeftHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck/Mocapi Character_Ctrl:Head
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2/Mocapi
+          Character_Ctrl:RightHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2/Mocapi
+          Character_Ctrl:RightHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2/Mocapi
+          Character_Ctrl:RightHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2/Mocapi
+          Character_Ctrl:RightHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2/Mocapi
+          Character_Ctrl:RightHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HipsEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftWristEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightWristEffector
+        weight: 0
+      - path: MocapiMan_Rig
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2/LeftToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2/RightToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2/LeftHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2/Head 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2/RightHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2/RightHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2/RightHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2/RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Nier2
+      takeName: shiatsu p2 maag-behandeling1 - p1
+      firstFrame: 1740
+      lastFrame: 2949
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mocapi Character_Ctrl:Reference
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestEndEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestOriginEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HeadEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot/Mocapi Character_Ctrl:LeftToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot/Mocapi Character_Ctrl:RightToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2/Mocapi
+          Character_Ctrl:LeftHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2/Mocapi
+          Character_Ctrl:LeftHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2/Mocapi
+          Character_Ctrl:LeftHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2/Mocapi
+          Character_Ctrl:LeftHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2/Mocapi
+          Character_Ctrl:LeftHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck/Mocapi Character_Ctrl:Head
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2/Mocapi
+          Character_Ctrl:RightHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2/Mocapi
+          Character_Ctrl:RightHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2/Mocapi
+          Character_Ctrl:RightHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2/Mocapi
+          Character_Ctrl:RightHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2/Mocapi
+          Character_Ctrl:RightHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HipsEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftWristEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightWristEffector
+        weight: 0
+      - path: MocapiMan_Rig
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2/LeftToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2/RightToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2/LeftHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2/Head 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2/RightHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2/RightHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2/RightHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2/RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Warmer
+      takeName: shiatsu p2 maag-behandeling1 - p1
+      firstFrame: 2950
+      lastFrame: 4046.99976
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mocapi Character_Ctrl:Reference
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestEndEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestOriginEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HeadEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot/Mocapi Character_Ctrl:LeftToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot/Mocapi Character_Ctrl:RightToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2/Mocapi
+          Character_Ctrl:LeftHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2/Mocapi
+          Character_Ctrl:LeftHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2/Mocapi
+          Character_Ctrl:LeftHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2/Mocapi
+          Character_Ctrl:LeftHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2/Mocapi
+          Character_Ctrl:LeftHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck/Mocapi Character_Ctrl:Head
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2/Mocapi
+          Character_Ctrl:RightHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2/Mocapi
+          Character_Ctrl:RightHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2/Mocapi
+          Character_Ctrl:RightHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2/Mocapi
+          Character_Ctrl:RightHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2/Mocapi
+          Character_Ctrl:RightHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HipsEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftWristEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightWristEffector
+        weight: 0
+      - path: MocapiMan_Rig
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2/LeftToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2/RightToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2/LeftHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2/Head 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2/RightHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2/RightHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2/RightHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2/RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hart 2
+      takeName: shiatsu p2 maag-behandeling1 - p1
+      firstFrame: 4069
+      lastFrame: 5527
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mocapi Character_Ctrl:Reference
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestEndEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:ChestOriginEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HeadEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:LeftUpLeg/Mocapi
+          Character_Ctrl:LeftLeg/Mocapi Character_Ctrl:LeftFoot/Mocapi Character_Ctrl:LeftToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:RightUpLeg/Mocapi
+          Character_Ctrl:RightLeg/Mocapi Character_Ctrl:RightFoot/Mocapi Character_Ctrl:RightToeBase
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandIndex1/Mocapi Character_Ctrl:LeftHandIndex2/Mocapi
+          Character_Ctrl:LeftHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandMiddle1/Mocapi Character_Ctrl:LeftHandMiddle2/Mocapi
+          Character_Ctrl:LeftHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandPinky1/Mocapi Character_Ctrl:LeftHandPinky2/Mocapi
+          Character_Ctrl:LeftHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandRing1/Mocapi Character_Ctrl:LeftHandRing2/Mocapi
+          Character_Ctrl:LeftHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:LeftShoulder/Mocapi Character_Ctrl:LeftArm/Mocapi Character_Ctrl:LeftForeArm/Mocapi
+          Character_Ctrl:LeftHand/Mocapi Character_Ctrl:LeftHandThumb1/Mocapi Character_Ctrl:LeftHandThumb2/Mocapi
+          Character_Ctrl:LeftHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:Neck/Mocapi Character_Ctrl:Head
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandIndex1/Mocapi Character_Ctrl:RightHandIndex2/Mocapi
+          Character_Ctrl:RightHandIndex3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandMiddle1/Mocapi Character_Ctrl:RightHandMiddle2/Mocapi
+          Character_Ctrl:RightHandMiddle3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandPinky1/Mocapi Character_Ctrl:RightHandPinky2/Mocapi
+          Character_Ctrl:RightHandPinky3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandRing1/Mocapi Character_Ctrl:RightHandRing2/Mocapi
+          Character_Ctrl:RightHandRing3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:Hips/Mocapi Character_Ctrl:Spine/Mocapi
+          Character_Ctrl:RightShoulder/Mocapi Character_Ctrl:RightArm/Mocapi Character_Ctrl:RightForeArm/Mocapi
+          Character_Ctrl:RightHand/Mocapi Character_Ctrl:RightHandThumb1/Mocapi Character_Ctrl:RightHandThumb2/Mocapi
+          Character_Ctrl:RightHandThumb3
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:HipsEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:LeftWristEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightAnkleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightElbowEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightFootEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandIndexEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandMiddleEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandPinkyEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandRingEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHandThumbEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightHipEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightKneeEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightShoulderEffector
+        weight: 0
+      - path: Mocapi Character_Ctrl:Reference/Mocapi Character_Ctrl:RightWristEffector
+        weight: 0
+      - path: MocapiMan_Rig
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/LeftUpLeg 1/LeftLeg 1/LeftFoot 2/LeftToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/RightUpLeg 1/RightLeg 1/RightFoot 2/RightToes
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandRing1/LeftHandRing2/LeftHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/LeftShoulder 2/LeftArm 1/LeftForeArm
+          2/LeftHand 2/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/Neck 2/Head 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandIndex1/RightHandIndex2/RightHandIndex3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandPinky1/RightHandPinky2/RightHandPinky3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandRing1/RightHandRing2/RightHandRing3
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2
+        weight: 1
+      - path: MocapiMan_Rig/Hips 1/Spine 1/Chest/RightShoulder 2/RightArm 1/RightForeArm
+          2/RightHand 2/RightHandThumb1/RightHandThumb2/RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips 1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftUpLeg 1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightUpLeg 1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg 1
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg 1
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot 2
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot 2
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine 1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck 2
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head 2
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder 2
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder 2
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm 1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm 1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftForeArm 2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightForeArm 2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHand 2
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHand 2
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftToes
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightToes
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: shiatsu p2 v4p1 ChClip(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:Reference
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:ChestEndEffector
+      position: {x: 3.57627847e-08, y: 1.42459047, z: .0243928432}
+      rotation: {x: .033382047, y: 4.58526683e-09, z: -8.47775254e-08, w: .999442697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:ChestOriginEffector
+      position: {x: -2.384186e-08, y: 1.07097757, z: -.00405367836}
+      rotation: {x: .033382047, y: 4.58526683e-09, z: -8.47775254e-08, w: .999442697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:HeadEffector
+      position: {x: .000476305897, y: 1.56445384, z: .0349898003}
+      rotation: {x: .00526602939, y: 6.96716285e-09, z: -8.46246664e-08, w: .999986172}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:Hips
+      position: {x: -2.384186e-08, y: .977589905, z: -.0103775766}
+      rotation: {x: -.0508225225, y: 1.90680084e-26, z: -3.90153255e-26, w: .998707712}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftUpLeg
+      position: {x: -.0754495338, y: -.0456639789, z: -1.69789569e-08}
+      rotation: {x: .0724942163, y: -.00123530475, z: .013842917, w: .997272015}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftLeg
+      position: {x: -.0205505155, y: -.409130007, z: .0071713631}
+      rotation: {x: .00975226983, y: .000111498251, z: 2.04799449e-06, w: .999952435}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftFoot
+      position: {x: -.00515281316, y: -.423156083, z: -.0120321335}
+      rotation: {x: -.031463109, y: .000283297035, z: -.0138967913, w: .999408305}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftToeBase
+      position: {x: -.00748700602, y: -.0731672943, z: .120980278}
+      rotation: {x: -8.8817842e-15, y: -5.82076748e-11, z: 1.86264515e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightUpLeg
+      position: {x: .0754496083, y: -.045664005, z: 4.08199767e-08}
+      rotation: {x: .0724794418, y: .00123532338, z: -.0138429208, w: .997273088}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightLeg
+      position: {x: .0205505099, y: -.409130424, z: .00717137847}
+      rotation: {x: .00978150032, y: -.000111034184, z: -2.02005458e-06, w: .999952197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightFoot
+      position: {x: .00515300734, y: -.423156142, z: -.0120318998}
+      rotation: {x: -.0314774849, y: -.000283371977, z: .0138967633, w: .999407828}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightToeBase
+      position: {x: .00748700183, y: -.0731673092, z: .12098065}
+      rotation: {x: 3.72528142e-09, y: -8.73114289e-11, z: -9.31321908e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:Spine
+      position: {x: 7.70777042e-09, y: .0922631919, z: .0157713629}
+      rotation: {x: .0841331035, y: 8.88567975e-09, z: -8.44347312e-08, w: .996454537}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftShoulder
+      position: {x: -.0382435359, y: .354722917, z: .00478763739}
+      rotation: {x: -.0438388176, y: .0107059749, z: -.0297931712, w: .998536885}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftArm
+      position: {x: -.115599871, y: -.00498005189, z: -.0110933483}
+      rotation: {x: -.000196061679, y: -.0138777206, z: -.0630531013, w: .997913659}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftForeArm
+      position: {x: -.276322126, y: -.00301999203, z: -.00835670345}
+      rotation: {x: .00566348061, y: .0128569184, z: -.000142696634, w: .999901295}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHand
+      position: {x: -.227855146, y: .0011599554, z: .00275230012}
+      rotation: {x: .000705323997, y: -.0138144596, z: .0556306504, w: .998355627}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandIndex1
+      position: {x: -.0815290511, y: -.000719965377, z: .0304924212}
+      rotation: {x: 3.7762824e-09, y: -1.47330548e-08, z: -7.53360307e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandIndex2
+      position: {x: -.0342409611, y: -.00107000174, z: .00781001011}
+      rotation: {x: 4.82514251e-10, y: -4.48154486e-10, z: -4.26254691e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandIndex3
+      position: {x: -.0250430368, y: -.00205009733, z: .00471760007}
+      rotation: {x: 2.40518494e-10, y: -6.51468168e-09, z: -3.27124751e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandMiddle1
+      position: {x: -.0843240842, y: .00520995678, z: .0113931363}
+      rotation: {x: 3.95162569e-09, y: -2.02796819e-08, z: -1.5006993e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandMiddle2
+      position: {x: -.0388699546, y: -.00127995643, z: .00192611897}
+      rotation: {x: 8.4127226e-11, y: -1.88003035e-09, z: 3.71332853e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandMiddle3
+      position: {x: -.0293740127, y: -.00316011999, z: .00153978984}
+      rotation: {x: -1.89521523e-11, y: 9.11975995e-10, z: 3.72734821e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandPinky1
+      position: {x: -.0719760135, y: -.00150999427, z: -.0273618102}
+      rotation: {x: 3.7762824e-09, y: -1.47330548e-08, z: -7.53360307e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandPinky2
+      position: {x: -.0277930275, y: -.00242013065, z: -.00678221509}
+      rotation: {x: -.00845621247, y: 5.1643583e-05, z: .0444118567, w: .998977542}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandPinky3
+      position: {x: -.0212860443, y: .000130100307, z: -.00405310187}
+      rotation: {x: -5.23144462e-12, y: -6.98402836e-10, z: -9.53074512e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandRing1
+      position: {x: -.0789920911, y: .00291999662, z: -.00886560511}
+      rotation: {x: 4.50108706e-09, y: -2.21425331e-08, z: -1.12955894e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandRing2
+      position: {x: -.0379559472, y: -.00212000334, z: -.00279160333}
+      rotation: {x: 3.08152774e-11, y: -3.73856571e-11, z: 7.44535011e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandRing3
+      position: {x: -.0271539614, y: -.00332987867, z: -.00196500006}
+      rotation: {x: -4.97674332e-11, y: 9.49361589e-10, z: -3.71800191e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandThumb1
+      position: {x: -.0314959511, y: -.00752005866, z: .0311641265}
+      rotation: {x: 2.64034217e-09, y: 2.94535045e-08, z: 1.31798614e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandThumb2
+      position: {x: -.0131110689, y: -.00489998376, z: .0188322179}
+      rotation: {x: 2.16821117e-09, y: -5.95254193e-08, z: -7.7444362e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandThumb3
+      position: {x: -.0183539856, y: -.00501001999, z: .0151705127}
+      rotation: {x: -3.09238052e-10, y: 8.37601988e-09, z: 4.20588703e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:Neck
+      position: {x: .000476224523, y: .40321818, z: .000767644204}
+      rotation: {x: -.0331350192, y: -5.87430193e-09, z: 6.47755058e-08, w: .999450922}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:Head
+      position: {x: 1.03955386e-11, y: .0912138224, z: .0113268532}
+      rotation: {x: .00501886616, y: 7.69207631e-09, z: -6.45944525e-08, w: .999987423}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightShoulder
+      position: {x: .0382435359, y: .354722917, z: .00478763785}
+      rotation: {x: -.0438388139, y: -.010706001, z: .0297931246, w: .998536885}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightArm
+      position: {x: .115600079, y: -.00498001324, z: -.0110934004}
+      rotation: {x: -.000196679568, y: .0138879521, z: .0630530789, w: .997913539}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightForeArm
+      position: {x: .276322246, y: -.00302002043, z: -.00835670531}
+      rotation: {x: .00566284219, y: -.0128796827, z: .000142826568, w: .999900997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHand
+      position: {x: .227854773, y: .0011600242, z: .00275229989}
+      rotation: {x: .000705294136, y: .0138219921, z: -.0556306504, w: .998355508}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandIndex1
+      position: {x: .0815291926, y: -.000724211219, z: .0304924361}
+      rotation: {x: -1.54735291e-09, y: -1.62710343e-08, z: 3.63705532e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandIndex2
+      position: {x: .0342404395, y: -.00106153404, z: .0078100306}
+      rotation: {x: -4.44259962e-10, y: 1.44036534e-08, z: 1.12366063e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandIndex3
+      position: {x: .0250436254, y: -.00204998045, z: .00471765222}
+      rotation: {x: 1.09709486e-09, y: 3.2790537e-09, z: -1.11478231e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandMiddle1
+      position: {x: .084324494, y: .00520581659, z: .0113931876}
+      rotation: {x: -1.45935009e-09, y: -4.69867478e-10, z: 1.11599174e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandMiddle2
+      position: {x: .0388693623, y: -.00127164426, z: .00192611793}
+      rotation: {x: 3.43597303e-11, y: 9.30668764e-10, z: 4.67268715e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandMiddle3
+      position: {x: .0293742772, y: -.00315982942, z: .00153979566}
+      rotation: {x: 5.30472111e-10, y: 9.50870715e-10, z: -7.43875361e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandPinky1
+      position: {x: .0719763562, y: -.0015140326, z: -.0273617283}
+      rotation: {x: -1.99371653e-09, y: -1.53418771e-08, z: 7.36247907e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandPinky2
+      position: {x: .027792586, y: -.00241169007, z: -.00678223837}
+      rotation: {x: -.00842870027, y: -5.14534368e-05, z: -.0442677289, w: .998984158}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandPinky3
+      position: {x: .0212861765, y: .000129991167, z: -.00405310001}
+      rotation: {x: 9.74144432e-10, y: -6.53061649e-09, z: 1.31134081e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandRing1
+      position: {x: .0789917633, y: .00291588111, z: -.00886554085}
+      rotation: {x: -1.30652222e-09, y: 3.27149863e-09, z: 7.45593365e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandRing2
+      position: {x: .0379559249, y: -.00211158744, z: -.00279158726}
+      rotation: {x: -4.84305096e-10, y: -8.94798013e-10, z: -3.72927156e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandRing3
+      position: {x: .0271542333, y: -.00333005213, z: -.00196504919}
+      rotation: {x: 8.96309083e-10, y: -9.65028502e-10, z: -8.25474997e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandThumb1
+      position: {x: .0314963385, y: -.00752004003, z: .0311641116}
+      rotation: {x: -5.49421841e-09, y: 1.64539706e-08, z: 1.12247909e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandThumb2
+      position: {x: .0131109394, y: -.00490010064, z: .0188322961}
+      rotation: {x: -4.96351982e-09, y: -4.72877737e-08, z: -1.14198002e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandThumb3
+      position: {x: .0183539949, y: -.00501091545, z: .0151704354}
+      rotation: {x: 9.58039958e-09, y: 3.27108154e-08, z: 3.92318267e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:HipsEffector
+      position: {x: -7.15255721e-09, y: .932161868, z: -.0057420563}
+      rotation: {x: -.0508225225, y: 1.90680084e-26, z: -3.90153255e-26, w: .998707712}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftAnkleEffector
+      position: {x: -.0780189931, y: .1011528, z: -.0549938269}
+      rotation: {x: -7.45057971e-09, y: 5.82076609e-11, z: -1.86264493e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftElbowEffector
+      position: {x: -.426311791, y: 1.47378278, z: .00558644999}
+      rotation: {x: -.00497465255, y: .00942250621, z: -.0924967006, w: .995656013}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftFootEffector
+      position: {x: -.0855059996, y: .0279855058, z: .065986447}
+      rotation: {x: -7.45058859e-09, y: -6.93887777e-18, z: 2.22044605e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandIndexEffector
+      position: {x: -.791007757, y: 1.52392745, z: .054227829}
+      rotation: {x: -.00501782028, y: -.00413595652, z: -.0368935429, w: .999298036}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandMiddleEffector
+      position: {x: -.802167892, y: 1.52909982, z: .0259228777}
+      rotation: {x: -.00501782028, y: -.00413595652, z: -.0368935391, w: .999298036}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandPinkyEffector
+      position: {x: -.770729721, y: 1.51971436, z: -.0267759655}
+      rotation: {x: -.0136447465, y: -.00354528381, z: .00748963142, w: .999872565}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandRingEffector
+      position: {x: -.79374373, y: 1.52489102, z: -.0024507686}
+      rotation: {x: -.00501782028, y: -.00413595606, z: -.0368935429, w: .999298036}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHandThumbEffector
+      position: {x: -.714547813, y: 1.50486672, z: .0771772712}
+      rotation: {x: -.00501782028, y: -.00413595652, z: -.0368935429, w: .999298036}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftHipEffector
+      position: {x: -.0754495189, y: .932161868, z: -.0057420563}
+      rotation: {x: .0217166543, y: -.000530176505, z: .0138878096, w: .999667585}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftKneeEffector
+      position: {x: -.0846258923, y: .522693932, z: -.0163695794}
+      rotation: {x: .0314631052, y: -.000283296977, z: .0138967885, w: .999408305}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftShoulderEffector
+      position: {x: -.15416944, y: 1.42622161, z: .016043717}
+      rotation: {x: -.0118009178, y: -.00285492977, z: -.0922281668, w: .995663881}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:LeftWristEffector
+      position: {x: -.649959862, y: 1.51693523, z: .0123902019}
+      rotation: {x: -.00501782401, y: -.0041359351, z: -.0368935354, w: .999298036}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightAnkleEffector
+      position: {x: .0780190006, y: .101152949, z: -.0549938567}
+      rotation: {x: 2.6077025e-08, y: -3.20142107e-10, z: -1.86264471e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightElbowEffector
+      position: {x: .426312029, y: 1.47378242, z: .00558074564}
+      rotation: {x: -.00497409888, y: -.00943503063, z: .0924966633, w: .995655894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightFootEffector
+      position: {x: .0855059996, y: .0279856399, z: .0659867972}
+      rotation: {x: 2.98023064e-08, y: -4.0745346e-10, z: -2.79396661e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandIndexEffector
+      position: {x: .791006923, y: 1.52393138, z: .0542292744}
+      rotation: {x: -.00501730153, y: .00413096044, z: .0368934795, w: .999298096}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandMiddleEffector
+      position: {x: .802167177, y: 1.52910399, z: .0259244069}
+      rotation: {x: -.00501730107, y: .00413095998, z: .0368934758, w: .999298096}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandPinkyEffector
+      position: {x: .770729601, y: 1.51972473, z: -.0267749261}
+      rotation: {x: -.0136159565, y: .00354225445, z: -.0073455763, w: .999874055}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandRingEffector
+      position: {x: .793743193, y: 1.52489483, z: -.00244934624}
+      rotation: {x: -.00501730107, y: .00413095998, z: .0368934758, w: .999298096}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHandThumbEffector
+      position: {x: .714547157, y: 1.50486541, z: .0771778822}
+      rotation: {x: -.00501730153, y: .00413096091, z: .0368934758, w: .999298096}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightHipEffector
+      position: {x: .0754495114, y: .932161868, z: -.0057420563}
+      rotation: {x: .0217018425, y: .000530194608, z: -.0138878142, w: .999667883}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightKneeEffector
+      position: {x: .0846258625, y: .522693217, z: -.0163574554}
+      rotation: {x: .0314775109, y: .000283372065, z: -.0138967652, w: .999407828}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightShoulderEffector
+      position: {x: .154169723, y: 1.42622161, z: .0160436705}
+      rotation: {x: -.0118018277, y: .00286513125, z: .0922278166, w: .995663881}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Mocapi Character_Ctrl:RightWristEffector
+      position: {x: .649959564, y: 1.51693499, z: .0123901935}
+      rotation: {x: -.00501730014, y: .00413095858, z: .0368934721, w: .999298096}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MocapiMan_Rig
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips 1
+      position: {x: -.00173370005, y: .963793993, z: -.0238187257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftUpLeg 1
+      position: {x: -.0754494965, y: -.0456639864, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftLeg 1
+      position: {x: -.0205504987, y: -.409130007, z: .0071713659}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftFoot 2
+      position: {x: -.00515299803, y: -.423155904, z: -.0120320888}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftToes
+      position: {x: -.00748700136, y: -.0731672943, z: .120980278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightUpLeg 1
+      position: {x: .0754495338, y: -.0456639864, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightLeg 1
+      position: {x: .0205504652, y: -.409130007, z: .0071713659}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightFoot 2
+      position: {x: .00515299803, y: -.423155904, z: -.0120320888}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightToes
+      position: {x: .00748700136, y: -.0731673017, z: .12098065}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine 1
+      position: {x: -0, y: .0922631845, z: .0157713313}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: -0, y: .162540287, z: .0218507219}
+      rotation: {x: -7.88860905e-31, y: -1.65436123e-24, z: 6.61744553e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftShoulder 2
+      position: {x: -.0382434987, y: .192182541, z: -.0170630869}
+      rotation: {x: -.0478060953, y: .0010245546, z: .998626828, w: -.0214019977}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftArm 1
+      position: {x: .116237581, y: 2.02044586e-08, z: 3.03261487e-08}
+      rotation: {x: -.000879543426, y: -.0327009521, z: -.0159570184, w: .999337435}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftForeArm 2
+      position: {x: .27646482, y: 1.98066346e-08, z: 1.27759048e-09}
+      rotation: {x: -6.16938778e-05, y: -.021154331, z: -.00800560787, w: .999744177}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHand 2
+      position: {x: .227874592, y: 1.59356333e-07, z: -4.27053681e-09}
+      rotation: {x: -.0305049866, y: -.373396397, z: .0801982358, w: .923695207}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandIndex1
+      position: {x: .0784022883, y: -.0125764757, z: -.0356678665}
+      rotation: {x: .0271633342, y: .27300787, z: -.0662526116, w: .959343255}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandIndex2
+      position: {x: .0351366438, y: 8.46178409e-06, z: -1.31472021e-07}
+      rotation: {x: .00105074374, y: .0190005749, z: .0250179823, w: .999505877}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandIndex3
+      position: {x: .0255658291, y: 6.55105836e-08, z: 6.07153652e-08}
+      rotation: {x: .0399502404, y: .994867742, z: .00373005588, w: -.0928883553}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandMiddle1
+      position: {x: .0661247745, y: -.0165073704, z: -.0512103252}
+      rotation: {x: .0358020999, y: .355423033, z: -.0632116124, w: .931878209}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandMiddle2
+      position: {x: .0389387421, y: 8.2592278e-06, z: -3.05401073e-08}
+      rotation: {x: -9.9742334e-05, y: -.0014258069, z: .0371690765, w: .99930799}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandMiddle3
+      position: {x: .0295836013, y: 1.30395094e-07, z: 1.35394105e-08}
+      rotation: {x: .0534655675, y: .998226404, z: .00140036247, w: -.0261454023}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandPinky1
+      position: {x: .0317215659, y: -.00385227939, z: -.070074141}
+      rotation: {x: .0355027877, y: .383012533, z: -.0816822723, w: .919439495}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandPinky2
+      position: {x: .0287107676, y: 8.35534956e-06, z: 1.4118541e-07}
+      rotation: {x: -.00100052066, y: -.0202187374, z: -.0355596915, w: .999162495}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandPinky3
+      position: {x: .0216688439, y: -5.83789506e-09, z: -3.20385318e-08}
+      rotation: {x: -.00298638223, y: .995573401, z: .000281787099, w: .093939662}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandRing1
+      position: {x: .04872315, y: -.0112312781, z: -.0618609376}
+      rotation: {x: .0368623473, y: .381959528, z: -.069528468, w: .920822442}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandRing2
+      position: {x: .0381174572, y: 8.4225494e-06, z: -1.53111746e-08}
+      rotation: {x: -5.19934583e-05, y: -.00058551284, z: .0331347324, w: .999450743}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandRing3
+      position: {x: .0274278987, y: -4.52561224e-08, z: 3.28740519e-08}
+      rotation: {x: .0607769415, y: .997497916, z: -.00219622534, w: .0360454172}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandThumb1
+      position: {x: .0449416004, y: -9.90234312e-08, z: 2.41857521e-07}
+      rotation: {x: -.0132183805, y: -.0825111046, z: -.024402095, w: .996203661}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandThumb2
+      position: {x: .0234640501, y: 5.35505684e-08, z: -1.31925674e-07}
+      rotation: {x: .0283367094, y: .036944814, z: -.000394483679, w: .998915434}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftHandThumb3
+      position: {x: .0243333336, y: -9.71545205e-07, z: 1.32631669e-07}
+      rotation: {x: .0974067971, y: .93589884, z: .0350447744, w: -.33671537}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck 2
+      position: {x: .000476250949, y: .240670696, z: -.0210829936}
+      rotation: {x: 7.89854621e-31, y: 1.65436123e-24, z: -1.05879118e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head 2
+      position: {x: -0, y: .0912136808, z: .0113267815}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightShoulder 2
+      position: {x: .0382434987, y: .192182541, z: -.017063085}
+      rotation: {x: .0214019977, y: .998626828, z: -.00102456624, w: -.0478060953}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightArm 1
+      position: {x: -.116237789, y: -1.10517941e-08, z: -5.2909499e-10}
+      rotation: {x: -.000879543426, y: -.0327009521, z: -.0159570184, w: .999337435}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightForeArm 2
+      position: {x: -.27646485, y: -1.97021102e-08, z: -3.74326625e-10}
+      rotation: {x: -6.16938778e-05, y: -.021154331, z: -.00800560787, w: .999744177}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHand 2
+      position: {x: -.227874294, y: -5.21692423e-09, z: -6.07477624e-10}
+      rotation: {x: -.0305049866, y: -.373396397, z: .0801982358, w: .923695207}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandIndex1
+      position: {x: -.0784031302, y: .0125722857, z: .0356679559}
+      rotation: {x: .0271633342, y: .27300787, z: -.0662526116, w: .959343255}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandIndex2
+      position: {x: -.0351358727, y: 6.36567847e-08, z: -9.37529077e-09}
+      rotation: {x: .00105074374, y: .0190005749, z: .0250179823, w: .999505877}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandIndex3
+      position: {x: -.0255664364, y: -1.66732779e-08, z: 3.07119108e-09}
+      rotation: {x: .0399502404, y: .994867742, z: .00373005588, w: -.0928883553}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandMiddle1
+      position: {x: -.0661258772, y: .0165033787, z: .0512106642}
+      rotation: {x: .0358020999, y: .355423033, z: -.0632116124, w: .931878209}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandMiddle2
+      position: {x: -.0389377885, y: -4.62844199e-08, z: 3.10449e-09}
+      rotation: {x: -9.9742334e-05, y: -.0014258069, z: .0371690765, w: .99930799}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandMiddle3
+      position: {x: -.0295838881, y: 5.3892407e-08, z: -1.13550536e-09}
+      rotation: {x: .0534655675, y: .998226404, z: .00140036247, w: -.0261454023}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandPinky1
+      position: {x: -.0317225792, y: .00384827238, z: .0700743496}
+      rotation: {x: .0355276391, y: .383031428, z: -.081569314, w: .919440687}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandPinky2
+      position: {x: -.0287096258, y: -2.95582883e-08, z: -9.49960111e-09}
+      rotation: {x: -.000999722513, y: -.0202693008, z: -.0356800333, w: .99915719}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandPinky3
+      position: {x: -.0216689911, y: 4.94397501e-09, z: -1.1871446e-09}
+      rotation: {x: -.00298638223, y: .995573401, z: .000281787099, w: .093939662}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandRing1
+      position: {x: -.0487236902, y: .0112270368, z: .0618606806}
+      rotation: {x: .0368853956, y: .381997138, z: -.0694629475, w: .920810819}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandRing2
+      position: {x: -.0381169803, y: 1.09182565e-07, z: -1.3331688e-09}
+      rotation: {x: -5.19934583e-05, y: -.00058551284, z: .0331347324, w: .999450743}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandRing3
+      position: {x: -.0274281502, y: -7.80486431e-08, z: 5.43161516e-10}
+      rotation: {x: .0607769415, y: .997497916, z: -.00219622534, w: .0360454172}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandThumb1
+      position: {x: -.0449418388, y: -1.55345816e-08, z: -2.46705749e-08}
+      rotation: {x: -.0132196303, y: -.0825116485, z: -.024386093, w: .996203959}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandThumb2
+      position: {x: -.0234640688, y: -4.9578091e-08, z: 2.57198653e-08}
+      rotation: {x: .0283384491, y: .0369390883, z: -.000408218737, w: .998915553}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightHandThumb3
+      position: {x: -.0243335385, y: 7.89915759e-08, z: -3.25698082e-08}
+      rotation: {x: .0974067971, y: .93589884, z: .0350447744, w: -.33671537}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
