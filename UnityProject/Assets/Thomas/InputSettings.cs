@@ -63,7 +63,7 @@ namespace MocapiThomas
 
         string[] inputAxisArray = new string[] { keyMoveAxis, keyTurnAxis, joyMoveAxis, joyTurnAxis, joyDPadX, joyDPadY, joyHatX, joyHatY };
         string[] inputButtonArray = new string[] { joySitButton, joyLookButton, joyStrafeButton, joyAlertButton, joyCamSwitchButton, joyCamResetButton };
-        string[] inputKeyArray = new string[] { };
+        //string[] inputKeyArray = new string[] { };
 
         //Axis availability test
         string axisName;

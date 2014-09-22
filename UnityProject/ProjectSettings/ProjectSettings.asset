@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Mocapi
-  productName: Thomas Project
+  productName: Thomas Project v.0.5
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -42,9 +42,9 @@ PlayerSettings:
   Override IPod Music: 0
   Prepare IOS For Recording: 0
   enableHWStatistics: 1
-  usePlayerLog: 1
+  usePlayerLog: 0
   stripPhysics: 0
-  forceSingleInstance: 0
+  forceSingleInstance: 1
   resizableWindow: 0
   useMacAppStoreValidation: 0
   gpuSkinning: 0
@@ -100,12 +100,29 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
-  resolutionDialogBanner: {fileID: 0}
+  resolutionDialogBanner: {fileID: 2800000, guid: 955db6b113295664593c95f1da82e73f,
+    type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
+    - m_Icon: {fileID: 2800000, guid: 825c61a93873bb54a8d6fa6086c386d7, type: 3}
+      m_Size: 128
+  - m_BuildTarget: Standalone
+    m_Icons:
+    - m_Icon: {fileID: 0}
+      m_Size: 1024
+    - m_Icon: {fileID: 0}
+      m_Size: 512
+    - m_Icon: {fileID: 0}
+      m_Size: 256
     - m_Icon: {fileID: 0}
       m_Size: 128
+    - m_Icon: {fileID: 2800000, guid: 825c61a93873bb54a8d6fa6086c386d7, type: 3}
+      m_Size: 48
+    - m_Icon: {fileID: 2800000, guid: 71284ca92c824c845b77556cf6eb103b, type: 3}
+      m_Size: 32
+    - m_Icon: {fileID: 0}
+      m_Size: 16
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}

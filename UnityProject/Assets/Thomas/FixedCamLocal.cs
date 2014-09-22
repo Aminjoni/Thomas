@@ -69,8 +69,8 @@ namespace MocapiThomas
             //if (MocapiLiveStream.CameraGUI.Low == true) { camPosY = camPosY - 0.1f; }
 
             //move camera up or down
-            if (MocapiThomas.CameraGUI.High == true) { cameraUp = cameraUp + (.5f * Time.deltaTime); }
-            else if (MocapiThomas.CameraGUI.Low == true) { cameraUp = cameraUp + (-.5f * Time.deltaTime); }
+            if (MocapiThomas.CameraGUI.High == true) { cameraUp = cameraUp + (.3f * Time.deltaTime); }
+            else if (MocapiThomas.CameraGUI.Low == true) { cameraUp = cameraUp + (-.3f * Time.deltaTime); }
             else { cameraUp = 0f; }
 
             ////move camera up or down Experimental
@@ -79,19 +79,22 @@ namespace MocapiThomas
             //else { cameraUp = 0f; }
 
             //move camera closer or away
-            if (MocapiThomas.CameraGUI.Up == true) { cameraForward = cameraForward + (.5f * Time.deltaTime); }
-            else if (MocapiThomas.CameraGUI.Down == true) { cameraForward = cameraForward + (-.5f * Time.deltaTime); }
+            if (MocapiThomas.CameraGUI.Up == true) { cameraForward = cameraForward + (.3f * Time.deltaTime); }
+            else if (MocapiThomas.CameraGUI.Down == true) { cameraForward = cameraForward + (-.3f * Time.deltaTime); }
             else { cameraForward = 0f; }
 
 
             //move camera right or left
-            if (MocapiThomas.CameraGUI.Right == true) { transform.RotateAround(targetFollow.transform.position, Vector3.up, 200 * Time.deltaTime); }
-            else if (MocapiThomas.CameraGUI.Left == true) { transform.RotateAround(targetFollow.transform.position, Vector3.up, -200 * Time.deltaTime); }
+            if (MocapiThomas.CameraGUI.Right == true) { transform.RotateAround(targetFollow.transform.position, Vector3.up, -150 * Time.deltaTime); }
+            else if (MocapiThomas.CameraGUI.Left == true) { transform.RotateAround(targetFollow.transform.position, Vector3.up, 150 * Time.deltaTime); }
             else { cameraRight = 0f; }
-
-
 
         }
 
+        //TEMP
+        void MouseDrag()
+        {
+
+        }
     }
 }

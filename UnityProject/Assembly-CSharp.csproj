@@ -55,6 +55,8 @@
      <Compile Include="Assets\Thomas\CharacterControlThomas.cs" />
      <Compile Include="Assets\Thomas\FixedCamLocal.cs" />
      <Compile Include="Assets\Thomas\InputSettings.cs" />
+     <Compile Include="Assets\Thomas\MouseView.cs" />
+     <Compile Include="Assets\Thomas\MoveCamera.cs" />
      <None Include="Assets\Mocapi Motion Pack\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

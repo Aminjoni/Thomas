@@ -59,6 +59,11 @@ namespace MocapiThomas
         static int ClipBehandeling2 = Animator.StringToHash("Base Layer.Behandeling2");
         static int ClipBehandeling3 = Animator.StringToHash("Base Layer.Behandeling3");
 
+        static int ClipBehandeling31 = Animator.StringToHash("Behandeling3.Behandeling3p1");
+        static int ClipBehandeling32 = Animator.StringToHash("Behandeling3.Behandeling3p4");
+        static int ClipBehandeling33 = Animator.StringToHash("Behandeling3.Behandeling3p3");
+        static int ClipBehandeling34 = Animator.StringToHash("Behandeling3.Behandeling3p4");
+
         /// <summary>
         /// flag to indicate if any valid input was given
         /// or the animation needs to stay in idle
@@ -383,10 +388,9 @@ namespace MocapiThomas
 		void Update () 
 		{
 
-
-			animState = anim.GetCurrentAnimatorStateInfo(0);
-            //MocapiThomas.CameraGUI.Progress = animState.normalizedTime % 1;
-            MocapiThomas.CameraGUI.Progress = animState.normalizedTime;
+            ////provide clip progress info
+            //animState = anim.GetCurrentAnimatorStateInfo(0);
+            //MocapiThomas.CameraGUI.Progress = animState.normalizedTime;
 
 
 			ProcessInput();
@@ -455,7 +459,8 @@ namespace MocapiThomas
             if (Input.GetKey(KeyCode.Escape))
             {
                 Debug.Log("Exit!");
-                Application.Quit();
+                //Application.Quit();
+                MotionName = "Stop";
             }
 
             
@@ -706,7 +711,12 @@ namespace MocapiThomas
         /// </summary>
         void SetLabel()
         {
+
+            //provide clip progress info
             animState = anim.GetCurrentAnimatorStateInfo(0);
+            MocapiThomas.CameraGUI.Progress = animState.normalizedTime;
+
+            //animState = anim.GetCurrentAnimatorStateInfo(0);
 
             if (animState.nameHash == ClipLongMasunaga) { MotionLabel = "Long Masunaga"; }
             else if (animState.nameHash == ClipMaagStarking) { MotionLabel = "Maag Starking"; }
@@ -729,7 +739,14 @@ namespace MocapiThomas
             else if (animState.nameHash == ClipLeverSterking) { MotionLabel = "Lever Sterking"; }
             else if (animState.nameHash == ClipBehandeling2) { MotionLabel = "Behandeling 2"; }
             else if (animState.nameHash == ClipBehandeling3) { MotionLabel = "Behandeling 3"; }
-            else { MotionLabel = "_ _ _"; }
+            else if (animState.nameHash == ClipBehandeling31) { MotionLabel = "Behandeling 3"; }
+            else if (animState.nameHash == ClipBehandeling32) { MotionLabel = "Behandeling 3"; }
+            else if (animState.nameHash == ClipBehandeling33) { MotionLabel = "Behandeling 3"; }
+            else if (animState.nameHash == ClipBehandeling34) { MotionLabel = "Behandeling 3"; }
+
+            else { MotionLabel = "";
+            MocapiThomas.CameraGUI.Progress = 0f;
+            }
 
         }
 

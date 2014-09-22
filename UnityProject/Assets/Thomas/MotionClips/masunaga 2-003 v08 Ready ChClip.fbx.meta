@@ -109,7 +109,7 @@ ModelImporter:
     400100: RightToes
     400102: RightUpLeg
     400104: Spine
-    7400000: Masunaga 3
+    7400000: Masunaga 3 old
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -128,7 +128,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Masunaga 3
+      name: Masunaga 3 old
       takeName: masunaga 2-003 v02
       firstFrame: 4
       lastFrame: 3924.99976
@@ -143,9 +143,9 @@ ModelImporter:
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
-      keepOriginalPositionY: 0
+      keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
-      heightFromFeet: 1
+      heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []

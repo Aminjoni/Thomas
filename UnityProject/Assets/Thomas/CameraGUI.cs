@@ -25,6 +25,7 @@ namespace MocapiThomas
         private Rect rectMenuContainer;
         public GUISkin MocapiSkin = null;
         private GUIStyle styleFlatButton;
+        private GUIStyle styleFlatBG;
         private GUIStyle styleTransp;
         private float alphaText;
         private float alphaTarget;
@@ -46,7 +47,7 @@ namespace MocapiThomas
         public static bool High = false;
         public static bool Low = false;
         public static string MotionButton;
-        public static float Progress=10;
+        public static float Progress;
 
         void OnGUI()
         {
@@ -55,11 +56,15 @@ namespace MocapiThomas
             GUI.skin = MocapiSkin;
             MotionLabel = MocapiThomas.CharacterControlThomas.MotionLabel;
             // Viewport Label
-            GUI.Label(new Rect(0, 10, Screen.width, 100), MocapiThomas.CharacterControlThomas.MotionLabel);
+            GUI.Label(new Rect(0, 5, Screen.width, 100), MocapiThomas.CharacterControlThomas.MotionLabel);
+
+            // Viewport Label background
+            GUI.Box(new Rect(0, 0, Screen.width, 28), "", styleFlatBG);
+
 
             // Viewport Progressbar
-            //GUI.Box(new Rect(leftMargin, 1, (Screen.width-(leftMargin*2)) * 1, 2), "", styleFlatButton);
             GUI.Box(new Rect(1, 1, (Screen.width - 2) * Progress, 2), "");
+
 
             // button up - camera forward
             if (GUI.RepeatButton(new Rect(leftMargin + buttDiameter, Screen.height - bottomMargin - (buttDiameter * 3), buttDiameter, buttDiameter), controlTex_Up)) { Up = true; }
@@ -174,6 +179,16 @@ namespace MocapiThomas
             styleFlatButton.fontStyle = FontStyle.Normal;
             styleFlatButton.alignment = TextAnchor.MiddleCenter;
 
+            //define style for BG rectangle
+            styleFlatBG = new GUIStyle();
+            styleFlatBG.normal.background = textureNorm;
+            styleFlatBG.normal.textColor = color32text;
+            styleFlatBG.fontSize = 12;
+            styleFlatBG.fontStyle = FontStyle.Normal;
+            styleFlatBG.alignment = TextAnchor.MiddleCenter;
+
+            //play music
+            audio.Play();
         }
 
         void Update() 
